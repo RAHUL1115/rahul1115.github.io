@@ -1,11 +1,13 @@
 /* scroll bar */
+
 ::-webkit-scrollbar-track {
     border-radius: 2px;
     background-color: #ffffff;
 }
 ::-webkit-scrollbar {
     width: 8px;
-	background-color: #ffffff;
+    background-color: #ffffff;
+    display: none;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -19,4 +21,30 @@
     font-weight: 700;
     overflow-y: visible;
     overflow-x: hidden;
+}
+
+.el{
+    transition: all 0.5s ease-in-out;
+}
+
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.bottombar {
+    left: 35%;
+    bottom: 2%
+}
+
+@media (min-width: 768px) {
+    .bottombar {
+        left: 45%;
+        bottom: 3%
+    }
 }
