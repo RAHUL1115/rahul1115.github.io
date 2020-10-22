@@ -42,9 +42,18 @@
     bottom: 2%
 }
 
+
+
+.h-50{
+    height: 50%;
+}
+
 @media (min-width: 768px) {
     .bottombar {
         left: 45%;
         bottom: 3%
+    }
+    .md\:h-full{
+        height: 100%;
     }
 }

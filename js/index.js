@@ -7,8 +7,6 @@ xpos = 0;
 // let topwidth = (100 - ((document.getElementById('socialicon').clientHeight - document.getElementById('topnav').clientHeight) / (h / 100))) / 2;
 let topwidth = (100 - ((document.getElementById('socialicon').clientHeight - 0) / (h / 100))) / 2;
 document.getElementById('socialicon').style.top = topwidth + '%';
-let width = (100 - (document.getElementById('downnav').clientWidth / (h / 100))) / 2;
-document.getElementById('downnav').style.left = width + '%';
 
 var swipeZone = document.getElementById('main');
 
@@ -52,7 +50,6 @@ function handleSwipe() {
             for (let i = 0; i < el.length; i++) {
                 el[i].style.transform = 'translateX(' + xpos + '%)';
             }
-            dotchange();
         }
         if (xdif > 24) {
             let el = document.getElementsByClassName('el');
@@ -64,7 +61,6 @@ function handleSwipe() {
             for (let i = 0; i < el.length; i++) {
                 el[i].style.transform = 'translateX(' + xpos + '%)';
             }
-            dotchange();
         }
     } 
     // else {
@@ -75,36 +71,4 @@ function handleSwipe() {
     //         console.log('up');
     //     }
     // }
-}
-
-function dotchange(){
-    let dot = document.getElementsByClassName('dot');
-    switch (xpos) {
-        case 0:
-            dot[0].classList.remove('text-3xl');
-            dot[0].classList.add('text-2xl');
-            dot[1].classList.add('text-3xl');
-            dot[2].classList.remove('text-2xl');
-            dot[2].classList.add('text-3xl');
-            dot[2].classList.remove('text-2xl');
-            break;
-        case -100:
-            dot[0].classList.add('text-3xl');
-            dot[0].classList.remove('text-2xl');
-            dot[1].classList.remove('text-3xl');
-            dot[1].classList.add('text-2xl');
-            dot[2].classList.add('text-3xl');
-            dot[2].classList.remove('text-2xl');
-            break;
-        case -200:
-            dot[0].classList.add('text-3xl');
-            dot[0].classList.remove('text-2xl');
-            dot[1].classList.add('text-3xl');
-            dot[1].classList.remove('text-2xl');
-            dot[2].classList.remove('text-3xl');
-            dot[2].classList.add('text-2xl');
-            break;
-        default:
-            break;
-    }
 }
