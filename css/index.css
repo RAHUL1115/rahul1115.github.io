@@ -33,19 +33,16 @@
     transition: all 0.5s ease-in-out;
 }
 
-.dot {
-    transition: all 0.5s ease-in-out;
-}
 
 .bottombar {
     left: 35%;
     bottom: 2%
 }
-
-
-
-.h-50{
+.photocont {
     height: 50%;
+}
+.photo{
+    height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -53,7 +50,10 @@
         left: 45%;
         bottom: 3%
     }
-    .md\:h-full{
+    .photocont {
         height: 100%;
+    }
+    .photo {
+        height: 50%;
     }
 }
