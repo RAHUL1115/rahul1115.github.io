@@ -1,32 +1,25 @@
 {
   "name": "rahul1115.github.io",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
-    "dev": "postcss ./style.css -o ./source/css/style.css",
-    "prod": "NODE_ENV=production postcss ./style.css -o ./public/css/style.css",
-    "push" : "git subtree push --prefix public origin gh-pages"
+    "install": "npm i -g tailwindcss gulp gulp-concat gulp-clean-css gulp-uglify",
+    "link": "npm link tailwindcss gulp gulp-concat gulp-clean-css gulp-uglify",
+    "tailwindcss": "tailwindcss -i ./src/_static/css/input.css -o ./src/_static/css/tailwind.css",
+    "push": "git add . && git commit -m 'changes' && git push origin main",
+    "pages": "git subtree push --prefix public origin gh-pages",
+    "update": "picogen clean && npm run tailwindcss && picogen generate -s -f && npm run push"
   },
-  "hexo": {
-    "version": "5.3.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAHUL1115/rahul1115.github.io.git"
   },
-  "dependencies": {
-    "autoprefixer": "^10.2.1",
-    "hexo": "^5.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
-    "hexo-server": "^2.0.0",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2",
-    "win-node-env": "^0.4.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAHUL1115/rahul1115.github.io/issues"
+  },
+  "homepage": "https://github.com/RAHUL1115/rahul1115.github.io#readme"
 }
