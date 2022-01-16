@@ -1,7 +1,13 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,ejs}"],
+  content: ["./src/**/*.{html,js,ejs}", "./src/_static/js/alpine.js"],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: false,
+    logs: false,
+  },
 }
