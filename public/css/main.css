@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Geomanist;
+  src: url(../fonts/geomanist.ttf);
+}
+
+*{
+  font-family: Geomanist;
+}

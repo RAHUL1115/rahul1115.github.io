@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://examle.com/404</loc>
+		<lastmod>2022-01-14T08:36:38.829Z</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://examle.com/articles</loc>
+		<lastmod>2022-01-20T14:47:36.413Z</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://examle.com/contact</loc>
+		<lastmod>2022-06-11T08:44:13.059Z</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://examle.com/history</loc>
+		<lastmod>2022-06-11T08:19:27.992Z</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://examle.com/</loc>
+		<lastmod>2022-06-12T10:47:04.367Z</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://examle.com/projects</loc>
+		<lastmod>2022-01-20T14:29:04.189Z</lastmod>
+		<priority>0.80</priority>
+	</url>
+</urlset>
