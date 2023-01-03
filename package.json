@@ -4,10 +4,10 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "install": "npm i -g tailwindcss gulp gulp-concat gulp-csso gulp-uglify",
-    "link": "npm link gulp gulp-concat gulp-csso gulp-uglify",
+    "start": "picogen",
     "tailwindcss": "tailwindcss -i ./src/_static/css/input.css -o ./src/_static/css/tailwind.css",
-    "generate": "picogen clean && npm run tailwindcss && gulp buildcss buildjs && picogen generate -s -f -p",
+    "tailwindcssWatch": "tailwindcss -w -i ./src/_static/css/input.css -o ./src/_static/css/tailwind.css",
+    "generate": "picogen clean & picogen generate",
     "preview": "picogen clean && npm run generate && picogen preview",
     "push": "node -e \"const mssg = 'BUILD - ' + process.argv[1]; require('child_process').execSync('git add . && git commit -m \\\"' + mssg + '\\\" && git push', { stdio:[0, 1, 2] })\"",
     "update": "npm run generate && npm run push"
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/RAHUL1115/rahul1115.github.io/issues"
   },
-  "homepage": "https://github.com/RAHUL1115/rahul1115.github.io#readme"
+  "homepage": "https://github.com/RAHUL1115/rahul1115.github.io#readme",
+  "dependencies": {
+    "picogen": "^4.0.5",
+    "tailwindcss": "^3.2.4"
+  }
 }

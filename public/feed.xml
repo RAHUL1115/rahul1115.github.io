@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>dummy title</title>
-        <link>https://examle.com</link>
-        <description>dummy title</description>
-        <lastBuildDate>Sun, 12 Jun 2022 10:50:24 GMT</lastBuildDate>
+        <link>https://example.com</link>
+        <description>dummy description</description>
+        <lastBuildDate>Tue, 03 Jan 2023 13:10:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>dummy title</copyright>
+        <image>
+            <title>dummy title</title>
+            <url>https://example.com/image.jpg</url>
+            <link>https://example.com</link>
+        </image>
+        <copyright>dummy copyright</copyright>
+        <item>
+            <title><![CDATA[getting started with picogen]]></title>
+            <link>https://example.com/post/getting-started</link>
+            <guid>https://example.com/post/getting-started</guid>
+            <pubDate>Tue, 03 Jan 2023 09:43:38 GMT</pubDate>
+            <content:encoded><![CDATA[<div class="container mx-auto">
+  this post is still in development
+</div>]]></content:encoded>
+            <enclosure url="https://example.com/img/helo.png" length="0" type="image/png"/>
+        </item>
     </channel>
 </rss>
