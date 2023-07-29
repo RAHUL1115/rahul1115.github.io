@@ -1,6 +1,6 @@
-import Sidebar from "../components/sidebar";
+import Sidebar from "./Sidebar";
 
-Sidebar
+Sidebar;
 
 export default function Base({ children }) {
   return (
