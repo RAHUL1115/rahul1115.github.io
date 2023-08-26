@@ -23,11 +23,18 @@ export default function Home() {
       { name: "POWER BI", rating: 4 },
     ],
     otherSkills: [
-      { category: "Framework & Libraries", names: "React, Vue, Tailwind CSS, Pandas, Numpy, Matplotlib." },
-      { category: "Tools & Technology", names: "Git, Github, Linux, Machin Learning, Data Analytics." },
+      {
+        category: "Framework & Libraries",
+        names: "React, Vue, Tailwind CSS, Pandas, Numpy, Matplotlib.",
+      },
+      {
+        category: "Tools & Technology",
+        names: "Git, Github, Linux, Machin Learning, Data Analytics.",
+      },
     ],
-    intrest: ['Chess', 'Trek', 'Traveling'],
-    summery: "Web developer with experience in REST api, Backend, Databases, Forntend, Data Analysis and Data science. Looking to progress my career in Data Science field.",
+    intrest: ["Chess", "Trek", "Traveling"],
+    summery:
+      "Passionate software developer and data enthusiast with a solid track record at Nexsales. Skilled in Full-Stack Development, REST API, Data Science, and cloud technologies. Proficient in Python, Docker, Vue.js, and Next.js. A problem-solver excited to explore AI and Data Science.",
     courses: [
       {
         name: "Power BI Desktop",
@@ -53,8 +60,8 @@ export default function Home() {
         start: "2018/06",
         end: "2022/01",
       },
-    ]
-  }
+    ],
+  };
 
   return (
     <>

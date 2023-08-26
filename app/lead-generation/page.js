@@ -23,11 +23,18 @@ export default function LeadGeneration() {
       { name: "POWER BI", rating: 4 },
     ],
     otherSkills: [
-      { category: "Framework & Libraries", names: "React, Vue, Tailwind CSS, Pandas, Numpy, Matplotlib." },
-      { category: "Tools & Technology", names: "Git, Github, Linux, Machin Learning, Data Analytics." },
+      {
+        category: "Framework & Libraries",
+        names: "React, Vue, Tailwind CSS, Pandas, Numpy, Matplotlib.",
+      },
+      {
+        category: "Tools & Technology",
+        names: "Git, Github, Linux, Machin Learning, Data Analytics.",
+      },
     ],
-    intrest: ['Chess', 'Trek', 'Traveling'],
-    summery: "Web developer with experience in REST api, Backend, Databases, Forntend, Data Analysis and Data science. Looking to progress my career in Data Science field.",
+    intrest: ["Chess", "Trek", "Traveling"],
+    summery:
+      "Dynamic professional with lead gen insight, software dev, data analysis skills. Proficient in Full-Stack Dev, REST API, Data Science. Mastery: HubSpot, Apollo, Hunter.io. Adept in B2B strategies, CRM, online lead gen. Eager to apply tech proficiency, nurture biz relations. Open to collaborative ventures for lead gen excellence.",
     courses: [
       {
         name: "Power BI Desktop",
@@ -53,8 +60,8 @@ export default function LeadGeneration() {
         start: "2018/06",
         end: "2022/01",
       },
-    ]
-  }
+    ],
+  };
 
   return (
     <>
