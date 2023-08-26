@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Geomanist;
+  src: url("/fonts/geomanist.ttf");
+}
+
+*{
+  font-family: Geomanist;
+}
