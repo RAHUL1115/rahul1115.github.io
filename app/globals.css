@@ -7,6 +7,6 @@
   src: url("/fonts/geomanist.ttf");
 }
 
-*{
+.Geomanist * {
   font-family: Geomanist;
 }

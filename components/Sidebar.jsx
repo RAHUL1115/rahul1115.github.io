@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import rahulImage from "#/public/img/rahul.jpg";
+import RahulImage from "#/assets/img/rahul.jpg";
+
 
 export default function Sidebar() {
   return (
     <div className="flex flex-col h-full justify-center items-center space-y-8">
       <Image
-        src={rahulImage}
+        src={RahulImage}
         className="w-28 aspect-square bg-white rounded-full"
         alt="Rahul Gupta Image"
       ></Image>
