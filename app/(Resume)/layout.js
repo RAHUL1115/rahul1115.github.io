@@ -1,5 +1,5 @@
-import "../globals.css";
-import "../../assets/font-awsome/css/all.css";
+import "#/app/globals.css";
+import "#/assets/font-awsome/css/all.css";
 
 export const metadata = {
   title: "Rahul Resume",
@@ -15,4 +15,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
