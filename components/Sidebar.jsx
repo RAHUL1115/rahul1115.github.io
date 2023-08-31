@@ -26,9 +26,10 @@ export default function Sidebar() {
         </Link>
         <Link
           className="font-semibold hover:underline text-black transition-all"
-          href="/articles"
+          target="blank"
+          href="https://blog.amrahul.in/"
         >
-          Articles
+          Blogs
         </Link>
         <Link
           className="font-semibold hover:underline text-black transition-all"
