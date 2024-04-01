@@ -18,13 +18,13 @@ export default function Home() {
         <div>
           <h1 className="md:text-9xl text-5xl px-2 md:px-0">RAHUL GUPTA</h1>
           <p className="md:tracking-widest md:text-lg px-2">
-            FULL STAKE DEVELOPER & DATA ANALYST
+            FULL STACE DEVELOPER & DATA ANALYST
           </p>
         </div>
         <p className="px-2 text-sm">
           Web Developer with 2 years of experience on working mid level
-          projects. Designed and Developed more then 5+ websites inclusding
-          E-commerce webistes. Exploring the word of data sceince and machin
+          projects. Designed and Developed more then 5+ websites including
+          E-commerce websites. Exploring the word of data sceince and machine
           learning and transitioning form Development to Data Science.
         </p>
         <div className="flex gap-5 flex-wrap select-none pl-2">
