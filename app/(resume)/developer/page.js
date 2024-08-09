@@ -1,14 +1,14 @@
-import Info from '#/components/Resume/info';
-import ProfileCard from '#/components/Resume/profileCard';
-import SkillsCard from '#/components/Resume/skillsCard';
-import OtherSkillsCard from '#/components/Resume/otherSkillsCard';
-import IntrestCard from '#/components/Resume/intrestCard';
-import SummeryCard from '#/components/Resume/summeryCard';
-import ExperienceCard from '#/components/Resume/experienceCard';
-import CourseCard from '#/components/Resume/courseCard';
-import EducationCard from '#/components/Resume/education';
+import Info from '#/components/resume/info';
+import ProfileCard from '#/components/resume/profileCard';
+import SkillsCard from '#/components/resume/skillsCard';
+import OtherSkillsCard from '#/components/resume/otherSkillsCard';
+import IntrestCard from '#/components/resume/intrestCard';
+import SummeryCard from '#/components/resume/summeryCard';
+import ExperienceCard from '#/components/resume/experienceCard';
+import CourseCard from '#/components/resume/courseCard';
+import EducationCard from '#/components/resume/education';
 
-export default function DataScience() {
+export default function Home() {
 
   const developer = {
     jobTitle: "Full Stack-Developer and Data Analyst",
