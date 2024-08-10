@@ -7,6 +7,16 @@
   src: url("/fonts/geomanist.ttf");
 }
 
+@font-face {
+  font-family: Googlesans;
+  src: url("/fonts/GoogleSans-Regular.ttf");
+}
+
 .Geomanist * {
   font-family: Geomanist;
 }
+
+.Googlesans * {
+  font-family: Googlesans;
+}
+

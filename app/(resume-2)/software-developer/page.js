@@ -10,8 +10,8 @@ import EducationCard from '#/components/resume/education';
 
 export default function Home() {
 
-  const developer = {
-    jobTitle: "Full Stack-Developer and Data Analyst",
+  const data = {
+    jobTitle: "Full stack Developer",
     skills: [
       { name: "NODE JS", rating: 5 },
       { name: "PYTHON", rating: 4 },
@@ -21,6 +21,11 @@ export default function Home() {
       { name: "SQL", rating: 3 },
       { name: "MONGO DB", rating: 3 },
       { name: "POWER BI", rating: 4 },
+    ],
+    links: [
+      { name: "github", url: "https://github.com/rahul1115" },
+      { name: "linkedin", url: "https://www.linkedin.com/in/rahul1115/" },
+      { name: "webiste", url: "https://amrahul.in/" }
     ],
     otherSkills: [
       {
@@ -66,29 +71,20 @@ export default function Home() {
   return (
     <>
       <Info />
-      <div className="w-[21cm] h-[29.65cm] border bg-white p-2 flex overflow-hidden">
-        <div className="w-[32%] space-y-8">
-          {/* Profile */}
-          <ProfileCard jobTitle={developer.jobTitle} />
-          {/* skills & hobby section */}
-          <div className="space-y-8">
-            {/* skills */}
-            <SkillsCard skills={developer.skills} />
-            {/* other skills */}
-            <OtherSkillsCard otherSkills={developer.otherSkills} />
-            {/* intrest */}
-            <IntrestCard intrest={developer.intrest} />
+      <div className="Googlesans w-[21cm] h-[29.65cm] border bg-white p-4 flex flex-col overflow-hidden">
+        <div className='flex justify-between'>
+          <div>
+            <h1 className='text-2xl'>Rahul Gupta</h1>
+            <p className='text-sm mt-1'>{data.jobTitle}</p>
+            <dev className="flex gap-x-2 text-sm">
+              {data.links.map(link => (<a className='underline text-blue-500' href={link.url}>{link.name}</a>))}
+            </dev>
           </div>
-        </div>
-        <div className="w-[68%] border-l px-2 space-y-10">
-          {/* summery */}
-          <SummeryCard summery={developer.summery} />
-          {/* experience */}
-          <ExperienceCard />
-          {/* courses & certification */}
-          <CourseCard courses={developer.courses} />
-          {/* education */}
-          <EducationCard />
+          <div class="text-sm align-right">
+            <p>email: rahulgupta89343@gmail.com</p>
+            <p>mobile: +91 7021091055</p>
+            <p>Mumbai, India</p>
+          </div>
         </div>
       </div>
     </>
