@@ -1,11 +1,11 @@
 const softwareDeveloperData = {
   name: "RAHUL GUPTA",
   jobTitle: "Full stack Developer",
-  about: `Full Stack Developer from Mumbai, passionate about web apps with Python, Node.js, React, and cloud. Always learning, especially in ML, neuroevolution, and GANs.`,
+  about: `Full Stack Developer from Mumbai, passionate about web apps with Python, Node.js, React, and cloud. Always learning, especially in ML, Neuroevolution, and GANs.`,
   links: [
-    { name: "github", url: "https://github.com/rahul1115" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/rahul1115/" },
-    { name: "webiste", url: "https://amrahul.in/" },
+    { name: "GitHub", url: "https://github.com/rahul1115" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/rahul1115/" },
+    { name: "Website", url: "https://amrahul.in/" },
   ],
   skills: [
     "Docker",
@@ -22,12 +22,12 @@ const softwareDeveloperData = {
     "Power BI",
     "Tailwind CSS",
     "Pandas",
-    "Numpy",
+    "NumPy",
     "Matplotlib",
     "Git",
-    "Github",
+    "GitHub",
     "Linux",
-    "Machin Learning",
+    "Machine Learning",
     "Data Analytics",
   ],
   experiences: [
@@ -95,13 +95,13 @@ const softwareDeveloperData = {
   ],
   education: [
     {
-      name: "MSc Computer Science",
+      name: "M.Sc. Computer Science",
       institution: "K.C College",
       start: "2020",
       end: "2022",
     },
     {
-      name: "Data Science Training",
+      name: "B.Sc Information Technology",
       institution: "Hinduja College",
       start: "2017",
       end: "2020",

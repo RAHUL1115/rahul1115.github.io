@@ -2,7 +2,7 @@ import "#/app/globals.css";
 import "#/assets/font-awsome/css/all.css";
 
 export const metadata = {
-  title: "Rahul Resume",
+  title: "Rahul-Gupta",
   description: "Rahul Resume",
 };
 
