@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import RahulImage from "#/assets/img/rahul.jpg";
+import { ExternalLinkIcon } from "lucide-react";
 
 
 export default function Sidebar() {
@@ -29,7 +30,9 @@ export default function Sidebar() {
           target="blank"
           href="https://blog.amrahul.in/"
         >
-          Blogs
+          <span className="flex items-center gap-1">
+            Blogs <ExternalLinkIcon size={16} />
+          </span>
         </Link>
         <Link
           className="font-semibold hover:underline text-black transition-all"

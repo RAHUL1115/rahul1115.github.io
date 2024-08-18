@@ -7,6 +7,19 @@
   src: url("/fonts/geomanist.ttf");
 }
 
+@font-face {
+  font-family: Googlesans;
+  src: url("/fonts/GoogleSans-Regular.ttf");
+}
+
 .Geomanist * {
   font-family: Geomanist;
+}
+
+.Googlesans * {
+  font-family: Googlesans;
+}
+
+.Calibri * {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

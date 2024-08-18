@@ -1,7 +1,9 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#442617",
-        "titleBar.activeBackground": "#5F3521",
-        "titleBar.activeForeground": "#FDFBFA"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#442617",
+    "titleBar.activeBackground": "#5F3521",
+    "titleBar.activeForeground": "#FDFBFA"
+  },
+  "editor.formatOnSave": true,
+  "cSpell.words": ["Hinduja"]
 }
