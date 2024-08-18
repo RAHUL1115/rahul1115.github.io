@@ -1,11 +1,17 @@
-export function About({data}) {
-    return (
+export default function About({
+  name = "Rahul Gupta",
+  about = "Hello",
+  links,
+  jobTitle,
+}) {
+  return (
+    <div className="space-y-1">
       <div className="flex justify-between">
         <div>
-          <h1 className="text-2xl tracking-wide">Rahul Gupta</h1>
-          <p className="text-sm mt-1 tracking-wide">{data.jobTitle}</p>
+          <h1 className="text-2xl tracking-wide font-bold">{name}</h1>
+          <p className="text-sm tracking-wide">{jobTitle}</p>
           <dev className="flex space-x-2 text-sm">
-            {data.links.map((link) => (
+            {links.map((link) => (
               <a
                 key={link.url}
                 className="underline text-blue-500"
@@ -35,5 +41,7 @@ export function About({data}) {
           <p>Mumbai, India</p>
         </div>
       </div>
-    );
+      <p className="px-2 text-sm">{about}</p>
+    </div>
+  );
 }
