@@ -16,6 +16,9 @@ export default function Home() {
           about={softwareDeveloperData.about}
           jobTitle={softwareDeveloperData.jobTitle}
           links={softwareDeveloperData.links}
+          contact={softwareDeveloperData.contact}
+          email={softwareDeveloperData.email}
+          location={softwareDeveloperData.location}
         />
 
         {/* Skills */}

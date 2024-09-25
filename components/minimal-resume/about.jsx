@@ -1,11 +1,14 @@
 export default function About({
-  name = "Rahul Gupta",
-  about = "Hello",
-  links,
+  name,
+  about,
   jobTitle,
+  links,
+  contact,
+  email,
+  location,
 }) {
   return (
-    <div className="space-y-1">
+    <div className="space-y-1.5">
       <div className="flex justify-between">
         <div>
           <h1 className="text-2xl tracking-wide font-bold">{name}</h1>
@@ -25,23 +28,24 @@ export default function About({
         <div class="text-sm text-right">
           <p>
             email:{" "}
-            <a
-              className="underline text-blue-500"
-              href="mailto:rahulgupta89343@gmail.com"
-            >
-              rahulgupta89343@gmail.com
+            <a className="underline text-blue-500" href={`mailto:${email}`}>
+              {email}
             </a>{" "}
           </p>
           <p>
             mobile:{" "}
-            <a className="underline text-blue-500" href="tel:+917021091055">
-              +91 7021091055
+            <a className="underline text-blue-500" href={`tel:+91${contact}`}>
+              +91 {contact}
             </a>{" "}
           </p>
-          <p>Mumbai, India</p>
+          <p>{location}</p>
         </div>
       </div>
-      <p className="px-2 text-sm">{about}</p>
+      <div>
+        <p className="tracking-wide text-lg font-bold">Summary</p>
+        <hr className="w-full mb-2" />
+        <p className="px-2">{about}</p>
+      </div>
     </div>
   );
 }
