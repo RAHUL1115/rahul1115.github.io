@@ -2,7 +2,7 @@ export default function Experience({ experiences }) {
   return (
     <div className="flex flex-col justify-between">
       {/* title */}
-      <p className="tracking-wide text-lg font-bold">Experience</p>
+      <p className="tracking-wide text-lg font-black">EXPERIENCE</p>
       <hr className="w-full mb-3" />
 
       {/* data */}
@@ -25,9 +25,9 @@ export default function Experience({ experiences }) {
             </div>
 
             {/* experience */}
-            <ul className="list-disc list-inside pl-3">
+            <ul className="list-[circle] list-outside pl-5 text-sm">
               {experience.description.map((point) => (
-                <li key={point}>{point}</li>
+                <li key={point} dangerouslySetInnerHTML={{ __html: point }}></li>
               ))}
             </ul>
           </div>

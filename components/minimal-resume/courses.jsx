@@ -12,9 +12,9 @@ export default function Courses({
       <hr className="w-full mb-2" />
 
       {/* data */}
-      <div className="space-y-3 pl-2">
+      <div className="space-y-1 pl-2">
         {coursesAndEducation.map((course) => (
-          <div key={course.name} className="flex justify-between">
+          <div key={course.name} className="flex justify-between text-sm">
             <p>
               <span className="font-semibold text-gray-700">{course.name}</span>{" "}
               ({course.institution})
