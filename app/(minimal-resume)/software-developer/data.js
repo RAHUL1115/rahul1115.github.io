@@ -1,7 +1,7 @@
 const softwareDeveloperData = {
   name: "RAHUL GUPTA",
   jobTitle: "Full Stack Developer",
-  about: `Not just a Software Engineer but a problem solver with 4 years in full-stack development and Api development. Skilled in Docker, DevOps, Node.js, Python, Next.js, and PostgreSQL. Recently implemented AI neural networks at Nexsales to tackle complex challenges.`,
+  about: `Not just a Software Engineer but a problem solver with 4 years in Full-stack development and Api development. Skilled in Docker, DevOps, Node.js, Python, Next.js, and PostgreSQL. Recently implemented AI neural networks at Nexsales to tackle complex challenges.`,
   email: "rahulgupta89343@gmail.com",
   contact: "7021091055",
   location: "Mumbai, India",
