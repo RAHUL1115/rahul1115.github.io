@@ -1,7 +1,7 @@
 const softwareDeveloperData = {
   name: "RAHUL GUPTA",
   jobTitle: "Full Stack Developer",
-  about: `Not just a Software Engineer but a problem solver with 4 years in Full-stack development and Api development. Skilled in Docker, DevOps, Node.js, Python, Next.js, and PostgreSQL. Recently implemented AI neural networks at Nexsales to tackle complex challenges.`,
+  about: `Not just a Software Engineer but a problem solver with 4+ years in Full-stack development and Api development. Skilled in Docker, DevOps, Node.js, Python, Next.js, and PostgreSQL. Recently implemented AI neural networks at Nexsales to tackle complex challenges.`,
   email: "rahulgupta89343@gmail.com",
   contact: "7021091055",
   location: "Mumbai, India",
@@ -13,6 +13,8 @@ const softwareDeveloperData = {
   skills: [
     "Node.js",
     "Python",
+    "Go",
+    "PHP",
     "Docker",
     "GCP",
     "AWS",
@@ -27,6 +29,7 @@ const softwareDeveloperData = {
     "Machine Learning",
     "Artificial intelligence",
     "Tensorflow",
+    "API Development"
   ],
   experiences: [
     {
@@ -40,7 +43,7 @@ const softwareDeveloperData = {
         "Proactively integrated <strong>emerging technologies</strong> like OAuth2 and Auth0, achieving a <strong>30%</strong> drop in security-related issues and streamlining authentication, which improved user sign-up rates.",
         "Implemented secure <strong>OAuth</strong> protocols, enhancing user experience and reducing sign-up drop-offs by <strong>20%</strong> across our platform.",
         "Managed CI/CD processes with <strong>GCP</strong>, ensuring seamless deployments and leveraging <strong>AWS</strong> knowledge for scalable cloud solutions.",
-        "Technologies: Node.js, Python, Docker, Next.js, React.js, PostgreSQL, GCP, Auth0, OAuth2, DevOps, GCP, AWS ."
+        "Technologies: Node.js, Python, PHP, Docker, Next.js, React.js, PostgreSQL, GCP, Auth0, OAuth2, DevOps, GCP, AWS ."
       ]
     },
     {
