@@ -16,7 +16,11 @@
       "Bash(wc:*)",
       "Bash(powershell -Command:*)",
       "Bash(cmd /c \"copy C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\app\\\\favicon.ico C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\public\\\\favicon.ico && del C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\app\\\\favicon.ico\")",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(git -C \"C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\" log --oneline --all)",
+      "mcp__sarena__execute_shell_command",
+      "mcp__sarena__list_memories",
+      "mcp__sarena__onboarding"
     ]
   }
 }
