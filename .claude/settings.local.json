@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sarena__check_onboarding_performed",
+      "mcp__sarena__list_dir",
+      "mcp__sarena__activate_project",
+      "mcp__sarena__search_for_pattern",
+      "mcp__sarena__find_file",
+      "mcp__sarena__read_file",
+      "mcp__sarena__replace_content"
+    ]
+  }
+}
