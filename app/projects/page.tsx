@@ -14,7 +14,7 @@ const projects = [
   {
     name: "Neuroevolution",
     description: "Neural network-based evolution simulation exploring genetic algorithms and emergent AI behavior.",
-    href: "https://github.com/RAHUL1115/neuroevolution",
+    href: "https://neuroevolution.amrahul.in",
     image: "/img/projects/neuroevolution.png",
     date: "2020",
     tags: ["JavaScript", "Neural Networks", "AI"],
