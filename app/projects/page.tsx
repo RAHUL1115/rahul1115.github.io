@@ -4,6 +4,14 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
+    name: "QuickSplit",
+    description: "Bill splitting web app — split expenses with friends and groups quickly and fairly.",
+    href: "https://quicksplit.amrahul.in/",
+    image: "/img/projects/quicksplit.png",
+    date: "2025",
+    tags: ["Next.js", "Supabase", "Full Stack"],
+  },
+  {
     name: "Neuroevolution",
     description: "Neural network-based evolution simulation exploring genetic algorithms and emergent AI behavior.",
     href: "https://github.com/RAHUL1115/neuroevolution",
@@ -52,18 +60,32 @@ export default function Projects() {
             >
               {/* Thumbnail */}
               <div className="relative overflow-hidden aspect-video">
-                <Image
-                  src={project.image}
-                  alt={project.name}
-                  width={640}
-                  height={360}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={project.name}
+                    width={640}
+                    height={360}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <div
+                    className="w-full h-full flex items-center justify-center"
+                    style={{ background: 'var(--bg-subtle)' }}
+                  >
+                    <span
+                      className="text-2xl font-bold tracking-widest"
+                      style={{ fontFamily: 'Geomanist, sans-serif', color: 'var(--border)' }}
+                    >
+                      {project.name.toUpperCase()}
+                    </span>
+                  </div>
+                )}
                 <div
                   className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                   style={{ background: 'rgba(59,130,246,0.12)' }}
                 >
-                  <ArrowUpRight size={22} className="text-white" />
+                  <ArrowUpRight size={22} style={{ color: 'var(--accent)' }} />
                 </div>
               </div>
 
