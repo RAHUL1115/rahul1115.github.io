@@ -72,7 +72,7 @@ export default function Home() {
           </Link>
           <Link
             href="/contact"
-            className="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 hover:text-white"
+            className="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 hover:text-[var(--text)]"
             style={{ border: '1px solid var(--border)', color: 'var(--text-muted)' }}
           >
             Contact Me

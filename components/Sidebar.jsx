@@ -94,7 +94,7 @@ export default function Sidebar() {
           ))}
         </div>
         <p className="text-xs mt-4" style={{ color: 'var(--text-dim)' }}>
-          © 2026 amrahul.in
+          © {new Date().getFullYear()} amrahul.in
         </p>
       </div>
     </div>
