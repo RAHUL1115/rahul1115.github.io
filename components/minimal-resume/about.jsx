@@ -23,7 +23,7 @@ export default function About({
           ))}
         </dev>
       </div>
-      <div class="text-sm text-right">
+      <div className="text-sm text-right">
         <p>
           Email:{" "}
           <a className="underline text-blue-800" href={`mailto:${email}`}>
