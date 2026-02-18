@@ -1,17 +1,14 @@
 import Base from "#/components/Base";
 import Image from "next/image";
 
-import rahulImage from "#/public/img/rahul.jpg";
-import twitterIcon from "#/public/img/icon/twitter.png";
-import linkedinIcon from "#/public/img/icon/linkedin.png";
-import githubIcon from "#/public/img/icon/github.png";
-
 export default function Home() {
   return (
     <Base>
       <div className="h-full flex flex-col justify-center space-y-5">
         <Image
-          src={rahulImage}
+          src="/img/rahul.jpg"
+          width={128}
+          height={128}
           alt="rahul gupta picture"
           className="w-32 rounded-full aspect-square bg-blue-300 mx-auto md:hidden"
         ></Image>
@@ -34,7 +31,9 @@ export default function Home() {
           >
             <Image
               className="bg-white rounded-full p-2 w-12 shadow-md"
-              src={githubIcon}
+              src="/img/icon/github.png"
+              width={48}
+              height={48}
               alt="github image"
             />
           </a>
@@ -44,7 +43,9 @@ export default function Home() {
           >
             <Image
               className="bg-white rounded-full p-2 w-12 shadow-md"
-              src={linkedinIcon}
+              src="/img/icon/linkedin.png"
+              width={48}
+              height={48}
               alt="linkedin image"
             />
           </a>
@@ -54,7 +55,9 @@ export default function Home() {
           >
             <Image
               className="bg-white rounded-full p-2 w-12 shadow-md"
-              src={twitterIcon}
+              src="/img/icon/twitter.png"
+              width={48}
+              height={48}
               alt="twitter image"
             />
           </a>

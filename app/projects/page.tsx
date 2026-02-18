@@ -1,8 +1,6 @@
 import Base from "#/components/Base";
 import Image from "next/image";
 
-import neuroevolutionImage from "#/public/img/projects/neuroevolution.png"
-
 export default function Home() {
   return (
     <Base>
@@ -18,7 +16,7 @@ export default function Home() {
             href="https://github.com/RAHUL1115/neuroevolution"
             className="w-full border rounded-lg cursor-pointer"
           >
-            <Image src={neuroevolutionImage} className="aspect-video" alt="" />
+            <Image src="/img/projects/neuroevolution.png" width={640} height={360} className="aspect-video" alt="" />
             <div className="flex justify-between px-4">
               <p className="uppercase font-bold">neuroevolution</p>
               <p>2020-11-02</p>

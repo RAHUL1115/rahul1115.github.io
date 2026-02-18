@@ -7,7 +7,16 @@
       "mcp__sarena__search_for_pattern",
       "mcp__sarena__find_file",
       "mcp__sarena__read_file",
-      "mcp__sarena__replace_content"
+      "mcp__sarena__replace_content",
+      "Bash(npx @next/codemod@16.1.6 upgrade:*)",
+      "Bash(printf:*)",
+      "Bash(npm view:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(wc:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(cmd /c \"copy C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\app\\\\favicon.ico C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\public\\\\favicon.ico && del C:\\\\Users\\\\rahul\\\\Dev\\\\rahul\\\\rahul1115.github.io\\\\app\\\\favicon.ico\")",
+      "Bash(dir:*)"
     ]
   }
 }
