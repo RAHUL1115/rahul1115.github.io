@@ -38,12 +38,13 @@ const softwareDeveloperData = {
       title: "Senior Software Engineer",
       location: "California, United States · Remote",
       description: [
-        "Sole engineer with both software and quant trading knowledge, driving development and automation of core systems powering trading strategies.",
-        "Designed and implemented <strong>auto-trading pipelines</strong> using <strong>webhooks</strong> and third-party integrations for seamless execution.",
-        "Built and maintained <strong>CI/CD workflows</strong> for reliable and rapid deployments across trading infrastructure.",
-        "Set up <strong>centralized logging</strong> and system monitoring for improved visibility and issue tracking in production.",
-        "Streamlined backend infrastructure to support <strong>high-availability</strong> trading operations.",
-        "Technologies: Node.js, Python, CI/CD, Webhooks, Cloud Infrastructure, System Monitoring.",
+        "Onboarded by thoroughly reading the codebase and preparing documentation as a knowledge base for future reference.",
+        "Resolved existing bugs and refactored <strong>legacy codebase</strong>, improving maintainability and laying the foundation for scalable development.",
+        "Built <strong>CI/CD pipelines</strong> from scratch, enabling reliable and rapid deployments where none previously existed.",
+        "Upgraded core projects and dependencies, reducing technical debt and improving system performance and security.",
+        "Designed and implemented <strong>auto-trading pipelines</strong> using <strong>webhooks</strong> and third-party integrations after infrastructure was stabilized.",
+        "Set up <strong>centralized logging</strong> and monitoring for full visibility into high-availability trading operations.",
+        "Technologies: Node.js, Python, Docker, CI/CD, Webhooks, Cloud Infrastructure, System Monitoring.",
       ],
     },
     {
@@ -68,7 +69,7 @@ const softwareDeveloperData = {
       location: "Mumbai, India",
       description: [
         "Led the development of <strong>6+ full-stack web applications</strong> using <strong>PHP</strong> and <strong>MySQL</strong>, collaborating closely with designers and clients to boost user engagement by up to <strong>25%</strong>.",
-        "Built a <strong>static site generator</strong> from scratch, reducing project timelines by <strong>40%</strong> and establishing a new standard for efficiency across future projects.",
+        "Built a <strong>static site generator</strong> with custom templates to productize static website delivery, cutting development cost and time by <strong>40%</strong> across projects.",
         "Technologies: Node.js, Python, PHP, MySQL.",
       ],
     },
