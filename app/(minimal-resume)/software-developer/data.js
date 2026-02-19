@@ -1,7 +1,7 @@
 const softwareDeveloperData = {
   name: "RAHUL GUPTA",
-  jobTitle: "Full Stack Developer",
-  about: `Not just a Software Engineer but a problem solver with 4+ years in Full-stack development and Api development. Skilled in Docker, DevOps, Node.js, Python, Next.js, and PostgreSQL. Recently implemented AI neural networks at Nexsales to tackle complex challenges.`,
+  jobTitle: "Senior Software Engineer",
+  about: `Senior Software Engineer with 5+ years across full-stack, DevOps, and quantitative trading systems. Currently at QuantDirection building high-availability auto-trading pipelines and backend infrastructure. Skilled in Node.js, Python, Go, Docker, GCP, AWS, and Next.js. Bridges the gap between quantitative logic and production-ready systems.`,
   email: "rahulgupta89343@gmail.com",
   contact: "7021091055",
   location: "Mumbai, India",
@@ -29,34 +29,37 @@ const softwareDeveloperData = {
     "Machine Learning",
     "Artificial intelligence",
     "Tensorflow",
-    "API Development"
+    "API Development",
   ],
   experiences: [
     {
-      companyName: "Nexsales Solutions Pvt Ltd",
-      duration: "Apr 2024 - Present",
-      title: "Senior Software Engineer 1",
-      location: "Mumbai, India",
+      companyName: "QuantDirection (via Cloudstaff LLP)",
+      duration: "Jan 2025 - Present",
+      title: "Senior Software Engineer",
+      location: "California, United States · Remote",
       description: [
-        "Developed an <strong>Artificial Neural Network</strong> in <strong>TensorFlow</strong> with over <strong>95%</strong> accuracy, solving a complex production issue. Collaborated with cross-functional teams to export the model from <strong>Python</strong> to <strong>JavaScript</strong>, enhancing application speed and adaptability.",
-        "Worked closely with architects and fellow engineers to plan and build <strong>scalable</strong> software for our lead generation platform, supporting thousands of users and ensuring system <strong>stability</strong> and <strong>robustness</strong>.",
-        "Proactively integrated <strong>emerging technologies</strong> like OAuth2 and Auth0, achieving a <strong>30%</strong> drop in security-related issues and streamlining authentication, which improved user sign-up rates.",
-        "Implemented secure <strong>OAuth</strong> protocols, enhancing user experience and reducing sign-up drop-offs by <strong>20%</strong> across our platform.",
-        "Managed CI/CD processes with <strong>GCP</strong>, ensuring seamless deployments and leveraging <strong>AWS</strong> knowledge for scalable cloud solutions.",
-        "Technologies: Node.js, Python, PHP, Docker, Next.js, React.js, PostgreSQL, GCP, Auth0, OAuth2, DevOps, GCP, AWS ."
-      ]
+        "Sole engineer with both software and quant trading knowledge, driving development and automation of core systems powering trading strategies.",
+        "Designed and implemented <strong>auto-trading pipelines</strong> using <strong>webhooks</strong> and third-party integrations for seamless execution.",
+        "Built and maintained <strong>CI/CD workflows</strong> for reliable and rapid deployments across trading infrastructure.",
+        "Set up <strong>centralized logging</strong> and system monitoring for improved visibility and issue tracking in production.",
+        "Streamlined backend infrastructure to support <strong>high-availability</strong> trading operations.",
+        "Technologies: Node.js, Python, CI/CD, Webhooks, Cloud Infrastructure, System Monitoring.",
+      ],
     },
     {
       companyName: "Nexsales Solutions Pvt Ltd",
-      duration: "Oct 2022 - Apr 2024",
-      title: "Junior Software Developer",
+      duration: "Oct 2022 - Jan 2025",
+      title: "Software Engineer → Senior Software Engineer",
       location: "Mumbai, India",
       description: [
-        "Revitalized an outdated <strong>JavaScript</strong> scraping tool, increasing data processing speed by <strong>40%</strong>, significantly reducing lead times for data gathering and improving efficiency for the data team.",
-        "Automated keyword scraping with a custom <strong>shell script</strong>, saving the team hours of manual work and enhancing data consistency.",
-        "Contributed to <strong>6+ diverse products</strong>, adapting to various tech stacks and requirements, and building a reputation as a reliable and adaptable teammate.",
-        "Technologies: Node.js, Python, Docker, React.js, Vue, Next.js, PostgreSQL."
-      ]
+        "Developed an <strong>Artificial Neural Network</strong> in <strong>TensorFlow</strong> with over <strong>95%</strong> accuracy; exported model from Python to JavaScript for improved performance.",
+        "Implemented <strong>single OAuth</strong> via Auth0 across all products, eliminating repeated logins and reducing sign-up drop-offs by <strong>20%</strong> while cutting security issues by <strong>30%</strong>.",
+        "Revitalized a <strong>JavaScript</strong> scraping tool increasing speed by <strong>40%</strong>; automated keyword scraping via shell scripts.",
+        "Collaborated with architects to build scalable software for our lead generation platform, supporting thousands of users with high stability.",
+        "Managed <strong>CI/CD</strong> pipelines on <strong>GCP</strong>, ensuring seamless deployments and leveraging <strong>AWS</strong> for scalable cloud solutions.",
+        "Contributed to <strong>6+ products</strong>, adapting to various tech stacks across the platform.",
+        "Technologies: Node.js, Python, Docker, Next.js, React.js, PostgreSQL, GCP, AWS, Auth0, DevOps.",
+      ],
     },
     {
       companyName: "Saryu Business Solutions",
@@ -66,9 +69,9 @@ const softwareDeveloperData = {
       description: [
         "Led the development of <strong>6+ full-stack web applications</strong> using <strong>PHP</strong> and <strong>MySQL</strong>, collaborating closely with designers and clients to boost user engagement by up to <strong>25%</strong>.",
         "Built a <strong>static site generator</strong> from scratch, reducing project timelines by <strong>40%</strong> and establishing a new standard for efficiency across future projects.",
-        "Technologies: Node.js, Python, PHP, MySQL."
-      ]
-    }
+        "Technologies: Node.js, Python, PHP, MySQL.",
+      ],
+    },
   ],
   courses: [
     {
