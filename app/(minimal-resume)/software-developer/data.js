@@ -59,7 +59,7 @@ const softwareDeveloperData = {
         "Collaborated with architects to build scalable software for our lead generation platform, supporting thousands of users with high stability.",
         "Managed <strong>CI/CD</strong> pipelines on <strong>GCP</strong>, ensuring seamless deployments and leveraging <strong>AWS</strong> for scalable cloud solutions.",
         "Contributed to <strong>6+ products</strong>, adapting to various tech stacks across the platform.",
-        "Technologies: Node.js, Python, Docker, Next.js, React.js, PostgreSQL, GCP, AWS, Auth0, DevOps.",
+        "Technologies: Node.js, Python, Docker, Next.js, React.js, Vue.js, PostgreSQL, GCP, AWS, Auth0, DevOps.",
       ],
     },
     {

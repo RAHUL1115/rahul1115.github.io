@@ -77,6 +77,13 @@ export default function Home() {
           >
             Contact Me
           </Link>
+          <Link
+            href="/software-developer"
+            className="inline-flex items-center px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 hover:text-[var(--text)]"
+            style={{ border: '1px solid var(--border)', color: 'var(--text-muted)' }}
+          >
+            Resume
+          </Link>
         </div>
 
         {/* Skills */}

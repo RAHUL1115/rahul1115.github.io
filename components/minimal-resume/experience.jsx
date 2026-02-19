@@ -18,7 +18,7 @@ export default function Experience({ experiences }) {
               </div>
 
               {/* title & location */}
-              <div>
+              <div className="text-right">
                 <p className="font-semibold">{experience.duration}</p>
                 <p className="text-sm">{experience.location}</p>
               </div>
