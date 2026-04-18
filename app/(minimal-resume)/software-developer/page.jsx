@@ -1,10 +1,12 @@
 import softwareDeveloperData from "./data";
+import EscapeToHome from "#/components/minimal-resume/escape-to-home";
 
 const d = softwareDeveloperData;
 
 export default function ResumePage() {
   return (
     <>
+      <EscapeToHome />
       {/* Print instructions — hidden when printing */}
       <div
         className="print:hidden"

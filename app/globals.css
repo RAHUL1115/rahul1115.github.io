@@ -74,7 +74,7 @@ body:has(.terminal) {
   overflow-x: hidden;
 }
 
-::selection { background: var(--selection); color: var(--fg); }
+.terminal ::selection { background: var(--selection); color: var(--fg); }
 
 /* phosphor vignette — scoped */
 html[data-theme="phosphor"] body:has(.terminal)::after {
