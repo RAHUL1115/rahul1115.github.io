@@ -1,6 +1,9 @@
 import TerminalCLI, { TerminalClock, UptimeDisplay } from '#/components/TerminalCLI';
+import { getAllPostsMeta } from '#/lib/blog';
+import Link from 'next/link';
 
 export default function Home() {
+  const recentPosts = getAllPostsMeta().slice(0, 5);
   return (
     <>
       <div className="terminal">
@@ -17,6 +20,7 @@ export default function Home() {
               ['05', 'skills', '#skills'],
               ['06', 'writing', '#writing'],
               ['07', 'contact', '#contact'],
+              ['08', 'blog', '/blog'],
             ].map(([num, label, href]) => (
               <a key={href} href={href}>
                 <span className="k">{num}</span> {label}
@@ -475,22 +479,23 @@ export default function Home() {
               <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~</span><span className="sig">$</span>{' '}
               <span className="cmd">ls</span> <span className="arg">writing/</span>
             </div>
-            <h2 style={{ marginTop: 14 }}>// notes from shipping AI in production</h2>
+            <h2 style={{ marginTop: 14 }}>// notes from shipping things</h2>
             <div className="posts">
-              {[
-                ['2026-03-22', 'Eval harnesses are a product — not a test.'],
-                ['2026-02-04', 'Building QuickSplit: why vision models beat OCR for receipts.'],
-                ['2025-12-10', 'RAG is plumbing. Stop treating it like magic.'],
-                ['2025-10-18', 'Streaming UI patterns that actually survive contact with users.'],
-                ['2025-08-02', 'The honest cost of an LLM feature — a one-pager for PMs.'],
-              ].map(([date, title]) => (
-                <a key={title} className="post" href="https://blog.amrahul.in/" target="_blank" rel="noopener noreferrer">
-                  <span className="date">{date}</span>
-                  <span className="ttl">{title}</span>
+              {recentPosts.length === 0 ? (
+                <p style={{ color: 'var(--muted)', fontSize: 13, marginTop: 14 }}>no posts yet.</p>
+              ) : recentPosts.map(post => (
+                <Link key={post.slug} className="post" href={`/blog/${post.slug}`}>
+                  <span className="date">{post.date}</span>
+                  <span className="ttl">{post.title}</span>
                   <span className="arr">→</span>
-                </a>
+                </Link>
               ))}
             </div>
+            {recentPosts.length > 0 && (
+              <div style={{ marginTop: 16 }}>
+                <Link href="/blog" className="btn">ls -la writing/ <span className="k">view all</span></Link>
+              </div>
+            )}
           </section>
 
           {/* ── CONTACT ── */}

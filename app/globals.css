@@ -604,6 +604,83 @@ body.no-scanlines .scanlines { opacity: 0 !important; }
 ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 10px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
+/* ── Blog post ── */
+.post-header { margin: 20px 0 32px; }
+.draft-badge {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: .1em;
+  color: var(--warn);
+  border: 1px solid var(--warn);
+  padding: 2px 8px;
+  margin-bottom: 12px;
+}
+.post-title {
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.05;
+  color: var(--fg);
+  margin-bottom: 12px;
+}
+.post-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.post-date { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.post-body {
+  max-width: 68ch;
+  margin: 32px 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg-dim);
+  border-top: 1px dashed var(--line);
+  padding-top: 28px;
+}
+.post-body p { margin-bottom: 20px; }
+.post-body h2 { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .06em; text-transform: uppercase; margin: 36px 0 12px; }
+.post-body h3 { font-size: 18px; font-weight: 600; color: var(--fg); letter-spacing: -.01em; margin: 28px 0 10px; }
+.post-body strong { color: var(--fg); font-weight: 500; }
+.post-body em { color: var(--fg-dim); font-style: italic; }
+.post-body a { color: var(--accent); border-bottom: 1px solid var(--accent-dim); }
+.post-body a:hover { color: var(--fg); }
+.post-body ul, .post-body ol { padding-left: 0; list-style: none; margin-bottom: 20px; }
+.post-body li { position: relative; padding-left: 18px; margin-bottom: 6px; color: var(--fg-dim); }
+.post-body ul li::before { content: "›"; position: absolute; left: 0; color: var(--muted); }
+.post-body ol { counter-reset: li; }
+.post-body ol li::before { counter-increment: li; content: counter(li) "."; position: absolute; left: 0; color: var(--muted); }
+.post-body code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  padding: 1px 5px;
+  color: var(--accent);
+}
+.post-body pre {
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  padding: 16px 20px;
+  margin: 20px 0;
+  overflow-x: auto;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.post-body pre code { background: transparent; border: none; padding: 0; color: var(--fg-dim); }
+.post-body blockquote {
+  border-left: 2px solid var(--accent-dim);
+  padding: 6px 0 6px 18px;
+  margin: 20px 0;
+  color: var(--muted);
+  font-style: italic;
+}
+.post-body hr { border: none; border-top: 1px dashed var(--line); margin: 32px 0; }
+
+.post-footer { display: flex; gap: 10px; margin-top: 40px; padding-top: 24px; border-top: 1px dashed var(--line); }
+
 /* ── Legacy resume class support ── */
 .Geomanist * { font-family: Geomanist; }
 .Googlesans * { font-family: 'Google Sans', sans-serif; }
