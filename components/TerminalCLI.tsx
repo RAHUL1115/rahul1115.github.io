@@ -89,7 +89,7 @@ export default function TerminalCLI() {
       print('Available commands:', 'ok');
       print('  <span style="color:var(--fg)">about</span>      — who is rahul');
       print('  <span style="color:var(--fg)">whoami</span>     — short bio');
-      print('  <span style="color:var(--fg)">projects</span>   — list projects');
+      print('  <span style="color:var(--fg)">projects</span>   — list projects (5)');
       print('  <span style="color:var(--fg)">skills</span>     — tech stack');
       print('  <span style="color:var(--fg)">experience</span> — career timeline');
       print('  <span style="color:var(--fg)">contact</span>    — get in touch');
@@ -112,10 +112,11 @@ export default function TerminalCLI() {
       print('experience.log  writing/  contact.vcf', 'ok');
     },
     projects() {
-      print('01  QuantDirection auto-trading pipeline (Node · Python · Docker)', 'ok');
-      print('02  Nexsales ANN classifier — 95%+ accuracy (TensorFlow → JS)', 'ok');
+      print('01  QuantDirection auto-trading pipeline (Node · Python · Webhooks)', 'ok');
+      print('02  Nexsales ANN — 89% accuracy · data-gap fill on lead-gen data (TensorFlow → JS)', 'ok');
       print('03  Single OAuth via Auth0 across 6+ products', 'ok');
       print('04  Static-site generator at Saryu — −40% cost/time', 'ok');
+      print('05  Auto-research engine (Claude API · Python · EC2) — confidential', 'ok');
     },
     skills() {
       print('Languages : Node.js, Python, Go, PHP, Shell', 'ok');

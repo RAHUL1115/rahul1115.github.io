@@ -196,7 +196,7 @@ export default function Home() {
               <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~</span><span className="sig">$</span>{' '}
               <span className="cmd">ls</span> <span className="flag">-lah</span> <span className="arg">projects/</span>
             </div>
-            <h2 style={{ marginTop: 14 }}>// selected work — 4 of many</h2>
+            <h2 style={{ marginTop: 14 }}>// selected work — 5 of many</h2>
 
             {/* Project 01 */}
             <article className="proj">
@@ -218,7 +218,7 @@ export default function Home() {
                     <b>centralised logging</b> for full visibility into high-availability operations.
                   </p>
                   <div className="stack">
-                    {['Node.js', 'Python', 'Docker', 'Webhooks', 'Cloud Infra'].map(s => <span key={s}>{s}</span>)}
+                    {['Node.js', 'Python', 'Webhooks', 'Cloud Infra'].map(s => <span key={s}>{s}</span>)}
                   </div>
                   <span className="link" style={{ color: 'var(--muted)', borderColor: 'transparent' }}>confidential — details on request</span>
                 </div>
@@ -238,7 +238,7 @@ export default function Home() {
               </div>
               <div className="proj-metrics">
                 <div><div className="k">CI/CD</div><div className="v">0 → 100%</div></div>
-                <div><div className="k">stack</div><div className="v">Node · Py · Docker</div></div>
+                <div><div className="k">stack</div><div className="v">Node · Python</div></div>
                 <div><div className="k">availability</div><div className="v">HA</div></div>
               </div>
             </article>
@@ -256,11 +256,11 @@ export default function Home() {
               <div className="proj-body">
                 <div className="proj-text">
                   <div className="year">2023 · ML · Python → JS</div>
-                  <h3>Artificial Neural Network with 95%+ accuracy.</h3>
+                  <h3>Artificial Neural Network — 89% accuracy on data-gap filling.</h3>
                   <p className="lede">
-                    Trained an ANN in <b>TensorFlow</b> (Python) for a lead-classification task, then exported the
-                    model to <b>JavaScript</b> to run inference at the edge for a big runtime performance win.
-                    Shipped into a lead-gen platform used by thousands.
+                    Trained an ANN in <b>TensorFlow</b> (Python) to fill missing data gaps in a lead-gen dataset
+                    using patterns from past records. Exported the model to <b>JavaScript</b> for runtime performance.
+                    Internal tool used by the Nexsales team.
                   </p>
                   <div className="stack">
                     {['TensorFlow', 'Python', 'JavaScript', 'Node.js'].map(s => <span key={s}>{s}</span>)}
@@ -276,15 +276,15 @@ export default function Home() {
    │  hidden · 2   ▓▓▓▓         │
    │  output       ▓▓           │
    │                            │
-   │  accuracy   ████████░ 95%+ │
+   │  accuracy   ███████░░  89% │
    │  exported  → tfjs · prod   │
    └────────────────────────────┘`}</pre>
                 </div>
               </div>
               <div className="proj-metrics">
-                <div><div className="k">accuracy</div><div className="v">95%+</div></div>
+                <div><div className="k">accuracy</div><div className="v">89%</div></div>
                 <div><div className="k">runtime</div><div className="v">py → js</div></div>
-                <div><div className="k">scale</div><div className="v">lead-gen · 1000s</div></div>
+                <div><div className="k">task</div><div className="v">data-gap fill</div></div>
               </div>
             </article>
 
@@ -376,6 +376,51 @@ export default function Home() {
                 <div><div className="k">cost ↓</div><div className="v">40%</div></div>
                 <div><div className="k">engagement ↑</div><div className="v">25%</div></div>
                 <div><div className="k">apps</div><div className="v">6+</div></div>
+              </div>
+            </article>
+
+            {/* Project 05 */}
+            <article className="proj">
+              <div className="proj-head">
+                <div className="left">
+                  <span className="num">05</span>
+                  <span>auto-research-engine/</span>
+                  <span className="status">● live · private</span>
+                </div>
+                <div>2025 — present · personal</div>
+              </div>
+              <div className="proj-body">
+                <div className="proj-text">
+                  <div className="year">2025 · AI · Python + Claude + EC2</div>
+                  <h3>Autonomous research agent with self-healing loops.</h3>
+                  <p className="lede">
+                    Designed a <b>prompt + code architecture</b> that runs multi-iteration autonomous research via the{' '}
+                    <b>Claude API</b>. Includes robust <b>self-healing mechanisms</b> that detect and recover from
+                    stalls mid-run. Deployed on <b>AWS EC2</b> with a web dashboard — users can kick off research
+                    iterations and monitor progress live.
+                  </p>
+                  <div className="stack">
+                    {['Claude API', 'Python', 'AWS EC2', 'Dashboard'].map(s => <span key={s}>{s}</span>)}
+                  </div>
+                  <span className="link" style={{ color: 'var(--muted)', borderColor: 'transparent' }}>confidential — details on request</span>
+                </div>
+                <div className="proj-visual">
+                  <span className="badge">research-engine · dashboard</span>
+                  <div className="mock">
+                    <div className="mh"><span>autoresearch · ec2 · prod</span><span>● running</span></div>
+                    <div className="row"><span>iteration</span><b>7 / 10</b></div>
+                    <div className="bar"><i style={{ width: '70%' }} /></div>
+                    <div className="row"><span>sources fetched</span><b>148</b></div>
+                    <div className="bar"><i style={{ width: '82%' }} /></div>
+                    <div className="row"><span>self-heals</span><b>2</b></div>
+                    <div className="row"><span>agent</span><b>claude api</b></div>
+                  </div>
+                </div>
+              </div>
+              <div className="proj-metrics">
+                <div><div className="k">model</div><div className="v">Claude API</div></div>
+                <div><div className="k">infra</div><div className="v">AWS EC2</div></div>
+                <div><div className="k">resilience</div><div className="v">self-healing</div></div>
               </div>
             </article>
 
