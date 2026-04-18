@@ -1,171 +1,158 @@
 'use client';
 
-import Base from "#/components/Base";
 import { useState } from 'react';
-import { ArrowUpRight, Mail, Github, Linkedin } from 'lucide-react';
-
-const quickLinks = [
-  { icon: Mail,    label: 'rahulgupta89343@gmail.com', href: 'mailto:rahulgupta89343@gmail.com' },
-  { icon: Github,  label: 'GitHub',                    href: 'https://github.com/RAHUL1115' },
-  { icon: Linkedin,label: 'LinkedIn',                  href: 'https://www.linkedin.com/in/rahul1115' },
-];
+import TerminalCLI from '#/components/TerminalCLI';
 
 export default function Contact() {
-  const [status, setStatus]   = useState('');
+  const [status, setStatus] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const submitForm = (event: any) => {
+  const submitForm = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setLoading(true);
-    const form = event.target;
+    const form = event.target as HTMLFormElement;
     fetch(form.action, {
       method: 'POST',
       body: new FormData(form),
-      headers: { 'Accept': 'application/json' },
+      headers: { Accept: 'application/json' },
     })
       .then(() => { setStatus("Message sent! I'll get back to you soon."); form.reset(); })
-      .catch(() => { setStatus('Something went wrong. Try emailing me directly.'); })
+      .catch(() => { setStatus('Something went wrong. Email me directly at hi@amrahul.in'); })
       .finally(() => setLoading(false));
   };
 
-  const fieldStyle = {
-    background: 'var(--bg-card)',
-    border: '1px solid var(--border)',
-    color: 'var(--text)',
+  const inputStyle: React.CSSProperties = {
+    width: '100%',
+    padding: '10px 14px',
+    background: 'var(--bg-elev)',
+    border: '1px solid var(--line)',
+    color: 'var(--fg)',
+    fontFamily: 'var(--font-mono)',
+    fontSize: 13,
+    outline: 'none',
+    transition: 'border-color .15s',
   };
 
   return (
-    <Base>
-      <div className="px-8 md:px-14 py-16 md:py-24 max-w-2xl">
-        {/* Header */}
-        <div className="mb-12">
-          <p
-            className="text-xs tracking-[0.25em] uppercase mb-4 font-medium"
-            style={{ color: 'var(--accent)' }}
-          >
-            Get in Touch
-          </p>
-          <h1
-            className="text-5xl md:text-6xl leading-none"
-            style={{ fontFamily: 'Geomanist, sans-serif', color: 'var(--text)' }}
-          >
-            CONTACT
-          </h1>
-          <p className="mt-3 text-sm" style={{ color: 'var(--text-muted)' }}>
-            Have a project in mind? Let&apos;s talk.
-          </p>
-        </div>
+    <>
+      <div className="terminal">
+        <header className="tbar">
+          <div className="dots"><i /><i /><i /></div>
+          <div className="title">— rahul@amrahul: ~/contact — zsh —</div>
+          <nav>
+            <a href="/">← home</a>
+            <a href="/#about"><span className="k">01</span> about</a>
+            <a href="/#projects"><span className="k">04</span> projects</a>
+          </nav>
+        </header>
 
-        {/* Quick links */}
-        <div className="flex flex-wrap gap-2 mb-10">
-          {quickLinks.map(({ icon: Icon, label, href }) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-3 py-2 rounded-md text-xs group transition-colors duration-200 hover:border-[var(--accent)]"
-              style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', color: 'var(--text-muted)' }}
-            >
-              <Icon size={12} />
-              <span className="group-hover:text-[var(--text)] transition-colors">{label}</span>
-              <ArrowUpRight size={10} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-            </a>
-          ))}
-        </div>
+        <div className="body-wrap" style={{ maxWidth: 720 }}>
+          <div className="prompt">
+            <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~</span><span className="sig">$</span>{' '}
+            <span className="cmd">./contact</span> <span className="flag">--open</span>
+          </div>
 
-        {/* Divider */}
-        <div className="w-full h-px mb-10" style={{ background: 'var(--border)' }} />
-
-        {/* Form */}
-        <form
-          onSubmit={submitForm}
-          action="https://formsubmit.co/1f9ad08fbc789cbab9d83fc60e929089"
-          method="POST"
-        >
-          <input type="hidden" name="_url" value="https://amrahul.in/contact" />
-          <div className="space-y-5">
-            {/* Name */}
-            <div>
-              <label
-                className="block text-xs uppercase tracking-widest mb-2"
-                style={{ color: 'var(--text-muted)' }}
-              >
-                Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                required
-                className="w-full px-4 py-3 rounded-lg text-sm outline-none transition-colors duration-200"
-                style={fieldStyle}
-                onFocus={e => (e.target.style.borderColor = 'var(--accent)')}
-                onBlur={e  => (e.target.style.borderColor = 'var(--border)')}
-              />
+          <div className="out contact-wrap" style={{ marginBottom: 32 }}>
+            <div className="big">
+              Got a project where <em>AI should feel like a feature</em>, not a gimmick? Let&apos;s talk.
             </div>
-
-            {/* Email */}
-            <div>
-              <label
-                className="block text-xs uppercase tracking-widest mb-2"
-                style={{ color: 'var(--text-muted)' }}
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                name="email"
-                required
-                className="w-full px-4 py-3 rounded-lg text-sm outline-none transition-colors duration-200"
-                style={fieldStyle}
-                onFocus={e => (e.target.style.borderColor = 'var(--accent)')}
-                onBlur={e  => (e.target.style.borderColor = 'var(--border)')}
-              />
+            <div className="contact-links">
+              <a href="mailto:hi@amrahul.in">
+                <span><span className="k">email</span> &nbsp; hi@amrahul.in</span><span className="arr">↗</span>
+              </a>
+              <a href="tel:+917021091055">
+                <span><span className="k">phone</span> &nbsp; +91 70210 91055</span><span className="arr">↗</span>
+              </a>
+              <a href="https://www.linkedin.com/in/rahul1115/" target="_blank" rel="noopener noreferrer">
+                <span><span className="k">linkedin</span> &nbsp; /in/rahul1115</span><span className="arr">↗</span>
+              </a>
+              <a href="https://github.com/rahul1115" target="_blank" rel="noopener noreferrer">
+                <span><span className="k">github</span> &nbsp; @rahul1115</span><span className="arr">↗</span>
+              </a>
             </div>
+          </div>
 
-            {/* Message */}
+          <div className="prompt" style={{ marginBottom: 20 }}>
+            <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~</span><span className="sig">$</span>{' '}
+            <span className="cmd">./send-message</span>
+          </div>
+
+          <form
+            onSubmit={submitForm}
+            action="https://formsubmit.co/1f9ad08fbc789cbab9d83fc60e929089"
+            method="POST"
+            style={{ display: 'flex', flexDirection: 'column', gap: 16 }}
+          >
+            <input type="hidden" name="_url" value="https://amrahul.in/contact" />
+
+            {[
+              { label: 'name', name: 'name', type: 'text' },
+              { label: 'email', name: 'email', type: 'email' },
+            ].map(({ label, name, type }) => (
+              <div key={name}>
+                <label style={{ display: 'block', fontSize: 10, color: 'var(--muted)', letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 6 }}>
+                  {label}
+                </label>
+                <input
+                  type={type}
+                  name={name}
+                  required
+                  style={inputStyle}
+                  onFocus={e => (e.target.style.borderColor = 'var(--accent)')}
+                  onBlur={e => (e.target.style.borderColor = 'var(--line)')}
+                />
+              </div>
+            ))}
+
             <div>
-              <label
-                className="block text-xs uppercase tracking-widest mb-2"
-                style={{ color: 'var(--text-muted)' }}
-              >
-                Message
+              <label style={{ display: 'block', fontSize: 10, color: 'var(--muted)', letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 6 }}>
+                message
               </label>
               <textarea
                 name="message"
                 required
                 rows={5}
-                className="w-full px-4 py-3 rounded-lg text-sm outline-none transition-colors duration-200 resize-none"
-                style={fieldStyle}
+                style={{ ...inputStyle, resize: 'none' }}
                 onFocus={e => (e.target.style.borderColor = 'var(--accent)')}
-                onBlur={e  => (e.target.style.borderColor = 'var(--border)')}
+                onBlur={e => (e.target.style.borderColor = 'var(--line)')}
               />
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 px-6 rounded-lg text-sm font-medium transition-opacity duration-200 hover:opacity-80 disabled:opacity-50"
-              style={{ background: 'var(--accent)', color: '#fff' }}
+              style={{
+                padding: '10px 20px',
+                background: 'transparent',
+                border: '1px solid var(--accent-dim)',
+                color: 'var(--accent)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: 13,
+                cursor: loading ? 'not-allowed' : 'pointer',
+                opacity: loading ? .5 : 1,
+                transition: 'all .15s',
+                alignSelf: 'flex-start',
+              }}
+              onMouseOver={e => { if (!loading) { (e.target as HTMLButtonElement).style.background = 'var(--accent)'; (e.target as HTMLButtonElement).style.color = 'var(--bg)'; } }}
+              onMouseOut={e => { (e.target as HTMLButtonElement).style.background = 'transparent'; (e.target as HTMLButtonElement).style.color = 'var(--accent)'; }}
             >
-              {loading ? 'Sending…' : 'Send Message'}
+              {loading ? '$ sending...' : '$ send message →'}
             </button>
-          </div>
-        </form>
+          </form>
 
-        {status && (
-          <p
-            className="mt-4 text-sm text-center py-3 rounded-lg"
-            style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              color: 'var(--text-muted)',
-            }}
-          >
-            {status}
-          </p>
-        )}
+          {status && (
+            <div style={{ marginTop: 16, padding: '12px 16px', border: '1px solid var(--line)', color: 'var(--accent)', fontSize: 13 }}>
+              ✓ {status}
+            </div>
+          )}
+
+          <footer>
+            <div>© 2026 Rahul Gupta · <a href="/" style={{ borderBottom: '1px solid var(--faint)' }}>← back to portfolio</a></div>
+            <div className="hint">press <kbd>`</kbd> for terminal</div>
+          </footer>
+        </div>
       </div>
-    </Base>
+      <TerminalCLI />
+    </>
   );
 }

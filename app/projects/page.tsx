@@ -1,130 +1,131 @@
-import Base from "#/components/Base";
-import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from 'lucide-react';
+import TerminalCLI from '#/components/TerminalCLI';
 
 const projects = [
   {
-    name: "QuickSplit",
-    description: "Bill splitting web app — split expenses with friends and groups quickly and fairly.",
-    href: "https://quicksplit.amrahul.in/",
-    image: "/img/projects/quicksplit.png",
-    date: "2025",
-    tags: ["Next.js", "Supabase", "Full Stack"],
+    num: '01',
+    slug: 'auto-trading-pipeline/',
+    status: '● live · high-availability',
+    period: '2025 — present · QuantDirection',
+    name: 'Auto-trading pipeline at QuantDirection.',
+    year: '2025 · quant · backend + infra',
+    lede: 'Webhook-driven pipelines wiring third-party signals into live trading flows. Built CI/CD from scratch and centralised logging for HA operations.',
+    stack: ['Node.js', 'Python', 'Docker', 'Webhooks', 'GCP'],
+    metrics: [['CI/CD', '0 → 100%'], ['stack', 'Node · Py · Docker'], ['availability', 'HA']],
+    href: null,
   },
   {
-    name: "Neuroevolution",
-    description: "Neural network-based evolution simulation exploring genetic algorithms and emergent AI behavior.",
-    href: "https://neuroevolution.amrahul.in",
-    image: "/img/projects/neuroevolution.png",
-    date: "2020",
-    tags: ["JavaScript", "Neural Networks", "AI"],
+    num: '02',
+    slug: 'neural-net-classifier/',
+    status: '● shipped',
+    period: '2023 — 2024 · Nexsales',
+    name: 'Artificial Neural Network with 95%+ accuracy.',
+    year: '2023 · ML · Python → JS',
+    lede: 'Trained an ANN in TensorFlow, exported to JavaScript for edge inference. Shipped into a lead-gen platform used by thousands.',
+    stack: ['TensorFlow', 'Python', 'JavaScript', 'Node.js'],
+    metrics: [['accuracy', '95%+'], ['runtime', 'py → js'], ['scale', '1000s users']],
+    href: null,
+  },
+  {
+    num: '03',
+    slug: 'single-oauth-auth0/',
+    status: '● shipped',
+    period: '2023 · Nexsales',
+    name: 'Single OAuth across 6+ products via Auth0.',
+    year: '2023 · platform · auth',
+    lede: 'Replaced scattered auth with SSO across every Nexsales product. Cut sign-up drop-offs 20% and security issues 30%.',
+    stack: ['Auth0', 'Node.js', 'Next.js', 'Vue'],
+    metrics: [['drop-off', '−20%'], ['sec issues', '−30%'], ['products', '6+']],
+    href: null,
+  },
+  {
+    num: '04',
+    slug: 'static-site-generator/',
+    status: '● shipped',
+    period: '2021 — 2022 · Saryu',
+    name: 'Static-site generator — productising web delivery.',
+    year: '2021 · productisation · PHP + MySQL',
+    lede: 'Templating engine + generator that productised static website delivery. Cut dev cost + time 40% across 6+ client projects.',
+    stack: ['PHP', 'MySQL', 'Templates', 'Shell'],
+    metrics: [['cost ↓', '40%'], ['engagement ↑', '25%'], ['apps', '6+']],
+    href: null,
+  },
+  {
+    num: '05',
+    slug: 'quicksplit/',
+    status: '● live',
+    period: '2025 · personal',
+    name: 'QuickSplit — split bills with friends instantly.',
+    year: '2025 · full-stack · Next.js + Supabase',
+    lede: 'Bill splitting web app. Split expenses with friends and groups quickly and fairly. Uses vision models for receipt scanning.',
+    stack: ['Next.js', 'Supabase', 'React', 'TypeScript'],
+    metrics: [['type', 'full-stack'], ['infra', 'Supabase'], ['ui', 'Next.js']],
+    href: 'https://quicksplit.amrahul.in/',
   },
 ];
 
 export default function Projects() {
   return (
-    <Base>
-      <div className="px-8 md:px-14 py-16 md:py-24">
-        {/* Header */}
-        <div className="mb-12">
-          <p
-            className="text-xs tracking-[0.25em] uppercase mb-4 font-medium"
-            style={{ color: 'var(--accent)' }}
-          >
-            Work
-          </p>
-          <h1
-            className="text-5xl md:text-6xl leading-none"
-            style={{ fontFamily: 'Geomanist, sans-serif', color: 'var(--text)' }}
-          >
-            PROJECTS
-          </h1>
-          <p className="mt-3 text-sm" style={{ color: 'var(--text-muted)' }}>
-            Things I&apos;ve built and shipped.
-          </p>
-        </div>
+    <>
+      <div className="terminal">
+        <header className="tbar">
+          <div className="dots"><i /><i /><i /></div>
+          <div className="title">— rahul@amrahul: ~/projects — zsh —</div>
+          <nav>
+            <a href="/">← home</a>
+            <a href="/#experience"><span className="k">03</span> experience</a>
+            <a href="/#projects"><span className="k">04</span> projects</a>
+            <a href="/#contact"><span className="k">07</span> contact</a>
+          </nav>
+        </header>
 
-        {/* Divider */}
-        <div className="w-full h-px mb-10" style={{ background: 'var(--border)' }} />
+        <div className="body-wrap">
+          <div className="prompt">
+            <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~/projects</span><span className="sig">$</span>{' '}
+            <span className="cmd">ls</span> <span className="flag">-lah</span>
+          </div>
+          <h2 style={{ marginTop: 14 }}>// selected work</h2>
 
-        {/* Projects grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {projects.map((project) => (
-            <a
-              key={project.name}
-              href={project.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex flex-col rounded-xl overflow-hidden transition-transform duration-300 hover:scale-[1.02]"
-              style={{ background: 'var(--bg-card)', border: '1px solid var(--border)' }}
-            >
-              {/* Thumbnail */}
-              <div className="relative overflow-hidden aspect-video">
-                {project.image ? (
-                  <Image
-                    src={project.image}
-                    alt={project.name}
-                    width={640}
-                    height={360}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                ) : (
-                  <div
-                    className="w-full h-full flex items-center justify-center"
-                    style={{ background: 'var(--bg-subtle)' }}
-                  >
-                    <span
-                      className="text-2xl font-bold tracking-widest"
-                      style={{ fontFamily: 'Geomanist, sans-serif', color: 'var(--border)' }}
-                    >
-                      {project.name.toUpperCase()}
-                    </span>
-                  </div>
-                )}
-                <div
-                  className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  style={{ background: 'rgba(59,130,246,0.12)' }}
-                >
-                  <ArrowUpRight size={22} style={{ color: 'var(--accent)' }} />
+          {projects.map(p => (
+            <article className="proj" key={p.num}>
+              <div className="proj-head">
+                <div className="left">
+                  <span className="num">{p.num}</span>
+                  <span>{p.slug}</span>
+                  <span className="status">{p.status}</span>
+                </div>
+                <div>{p.period}</div>
+              </div>
+              <div className="proj-body">
+                <div className="proj-text" style={{ borderRight: '1px solid var(--line)', gridColumn: '1 / -1' }}>
+                  <div className="year">{p.year}</div>
+                  <h3>{p.name}</h3>
+                  <p className="lede">{p.lede}</p>
+                  <div className="stack">{p.stack.map(s => <span key={s}>{s}</span>)}</div>
+                  {p.href ? (
+                    <a href={p.href} target="_blank" rel="noopener noreferrer" className="link" style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+                      view project <ArrowUpRight size={12} />
+                    </a>
+                  ) : (
+                    <span className="link" style={{ color: 'var(--muted)', borderColor: 'transparent' }}>confidential — details on request</span>
+                  )}
                 </div>
               </div>
-
-              {/* Info */}
-              <div className="p-4 flex-1">
-                <div className="flex items-start justify-between mb-2">
-                  <h3
-                    className="text-sm font-semibold uppercase tracking-wide"
-                    style={{ color: 'var(--text)', fontFamily: 'Geomanist, sans-serif' }}
-                  >
-                    {project.name}
-                  </h3>
-                  <span className="text-xs" style={{ color: 'var(--text-dim)' }}>
-                    {project.date}
-                  </span>
-                </div>
-                <p className="text-xs leading-5 mb-3" style={{ color: 'var(--text-muted)' }}>
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {project.tags.map(tag => (
-                    <span
-                      key={tag}
-                      className="text-xs px-2 py-0.5 rounded"
-                      style={{
-                        background: 'var(--bg-subtle)',
-                        border: '1px solid var(--border)',
-                        color: 'var(--text-dim)',
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+              <div className="proj-metrics">
+                {p.metrics.map(([k, v]) => (
+                  <div key={k}><div className="k">{k}</div><div className="v">{v}</div></div>
+                ))}
               </div>
-            </a>
+            </article>
           ))}
+
+          <footer>
+            <div>© 2026 Rahul Gupta · <a href="/" style={{ borderBottom: '1px solid var(--faint)' }}>← back to portfolio</a></div>
+            <div className="hint">press <kbd>`</kbd> for terminal</div>
+          </footer>
         </div>
       </div>
-    </Base>
+      <TerminalCLI />
+    </>
   );
 }
