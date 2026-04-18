@@ -138,7 +138,7 @@ export default function TerminalCLI() {
     social() { commands.contact(); },
     resume() { print('→ opening résumé...', 'ok'); window.open('/software-developer', '_blank'); },
     clear() { setLines([]); },
-    exit() { setOpen(false); },
+    exit() { inputRef.current?.blur(); setOpen(false); },
     sudo() { print('permission denied.', 'e'); },
     theme(arg: string) {
       if (!['classic', 'paper', 'phosphor'].includes(arg)) { print('usage: theme <classic|paper|phosphor>', 'e'); return; }
@@ -190,13 +190,14 @@ export default function TerminalCLI() {
       const tag = (e.target as HTMLElement)?.tagName?.toLowerCase();
       if (tag === 'input' || tag === 'textarea') return;
       if (e.key === '`' || (e.key === '/' && !open)) { e.preventDefault(); openCLI(); }
-      else if (e.key === 'Escape' && open) setOpen(false);
+      else if (e.key === 'Escape' && open) { inputRef.current?.blur(); setOpen(false); }
     };
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
   }, [open, openCLI]);
 
   const handleKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Escape') { inputRef.current?.blur(); setOpen(false); return; }
     if (e.key === 'Enter') { run(inputVal); setInputVal(''); }
     else if (e.key === 'ArrowUp') {
       histIdx.current = Math.min(histIdx.current + 1, history.current.length - 1);
@@ -223,11 +224,11 @@ export default function TerminalCLI() {
       />
 
       {/* CLI overlay */}
-      <div className={`cli-overlay${open ? ' open' : ''}`} onClick={e => { if (e.target === e.currentTarget) setOpen(false); }}>
+      <div className={`cli-overlay${open ? ' open' : ''}`} onClick={e => { if (e.target === e.currentTarget) { inputRef.current?.blur(); setOpen(false); } }}>
         <div className="cli-modal">
           <div className="top">
             <span>— rahul@amrahul: interactive shell —</span>
-            <span className="close" onClick={() => setOpen(false)}>[ esc ]</span>
+            <span className="close" onClick={() => { inputRef.current?.blur(); setOpen(false); }}>[ esc ]</span>
           </div>
           <div className="cli-log" ref={logRef}>
             {lines.map((l, i) => (
