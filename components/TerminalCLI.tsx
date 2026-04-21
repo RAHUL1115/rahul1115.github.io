@@ -300,7 +300,7 @@ export default function TerminalCLI() {
         onClick={() => setTweaksOpen(t => !t)}
         style={{
           position: 'fixed',
-          bottom: 20,
+          bottom: 'calc(env(safe-area-inset-bottom, 0px) + 20px)',
           left: 20,
           background: 'var(--bg-elev)',
           border: '1px solid var(--line)',
