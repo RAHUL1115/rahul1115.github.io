@@ -20,7 +20,6 @@ export default function Home() {
               ['05', 'skills', '#skills'],
               ['06', 'writing', '#writing'],
               ['07', 'contact', '#contact'],
-              ['08', 'blog', '/blog'],
             ].map(([num, label, href]) => (
               <a key={href} href={href}>
                 <span className="k">{num}</span> {label}
