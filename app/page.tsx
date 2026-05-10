@@ -79,24 +79,38 @@ export default function Home() {
               <span className="usr">rahul</span>@<span className="host">amrahul.in</span>:<span className="path">~</span><span className="sig">$</span>{' '}
               <span className="cmd">cat</span> <span className="arg">about.md</span>
             </div>
-            <div className="out about-body">
-              <h2 style={{ marginBottom: 10 }}>// about.md</h2>
-              <p>
-                I&apos;m a <b>senior software engineer</b> who lives in the uncomfortable middle: <b>product UX</b> on
-                one side, <b>pipelines, infra, and quantitative logic</b> on the other. I enjoy owning that gap
-                end-to-end — from the Docker image to the button the user clicks.
-              </p>
-              <p>
-                Today I build high-availability auto-trading systems at <b>QuantDirection</b> — CI/CD from scratch,
-                webhook-driven pipelines, centralised logging. Before that, four years at <b>Nexsales</b> shipping an{' '}
-                <b>Artificial Neural Network</b> with 95%+ accuracy, rolling out single-OAuth across 6+ products,
-                and running GCP + AWS deploys.
-              </p>
-              <p>
-                Tools I reach for without thinking: <b>Node.js, Python, Go, Docker, GCP/AWS, Next.js, PostgreSQL</b>.
-                Also TensorFlow when the problem asks for it. I care about small surface area, short feedback loops,
-                and code that a stranger can read on a Monday morning.
-              </p>
+            <div className="out about-grid">
+              <div className="about-prose">
+                <h2 style={{ marginBottom: 10 }}>// about.md</h2>
+                <p>
+                  I&apos;m a <b>senior software engineer</b> who lives in the uncomfortable middle: <b>product UX</b> on
+                  one side, <b>pipelines, infra, and quantitative logic</b> on the other. I enjoy owning that gap
+                  end-to-end — from the Docker image to the button the user clicks.
+                </p>
+                <p>
+                  Today I build high-availability auto-trading systems at <b>QuantDirection</b> — CI/CD from scratch,
+                  webhook-driven pipelines, centralised logging. Before that, four years at <b>Nexsales</b> shipping an{' '}
+                  <b>Artificial Neural Network</b> with 95%+ accuracy, rolling out single-OAuth across 6+ products,
+                  and running GCP + AWS deploys.
+                </p>
+                <p>
+                  Tools I reach for without thinking: <b>Node.js, Python, Go, Docker, GCP/AWS, Next.js, PostgreSQL</b>.
+                  Also TensorFlow when the problem asks for it. I care about small surface area, short feedback loops,
+                  and code that a stranger can read on a Monday morning.
+                </p>
+              </div>
+              <div className="about-card">
+                <div className="about-card-row"><span className="k">exp</span><span className="v">5+ years</span></div>
+                <div className="about-card-row"><span className="k">role</span><span className="v">sr. software engineer</span></div>
+                <div className="about-card-row"><span className="k">focus</span><span className="v">full-stack · devops · ai</span></div>
+                <div className="about-card-row"><span className="k">now</span><span className="v">QuantDirection · remote</span></div>
+                <div className="about-card-row"><span className="k">based</span><span className="v">Mumbai, India</span></div>
+                <div className="about-card-row"><span className="k">open</span><span className="v" style={{ color: 'var(--accent)' }}>available for work</span></div>
+                <div className="about-card-divider" />
+                <div className="about-card-row"><span className="k">languages</span><span className="v">Node · Python · Go</span></div>
+                <div className="about-card-row"><span className="k">cloud</span><span className="v">GCP · AWS · Docker</span></div>
+                <div className="about-card-row"><span className="k">frontend</span><span className="v">Next.js · React · TS</span></div>
+              </div>
             </div>
           </section>
 
