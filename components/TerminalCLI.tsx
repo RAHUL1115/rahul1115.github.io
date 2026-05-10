@@ -62,7 +62,7 @@ export default function TerminalCLI() {
   const [tweaksOpen, setTweaksOpen] = useState(false);
   const [lines, setLines] = useState<Array<{ html: string; cls: string }>>([]);
   const [inputVal, setInputVal] = useState('');
-  const [state, setState] = useState(loadPrefs);
+  const [state, setState] = useState(DEFAULTS);
   const history = useRef<string[]>([]);
   const histIdx = useRef(-1);
   const logRef = useRef<HTMLDivElement>(null);
@@ -79,6 +79,10 @@ export default function TerminalCLI() {
 
   const applyBlink = useCallback((v: boolean) => {
     document.body.classList.toggle('no-blink', !v);
+  }, []);
+
+  useEffect(() => {
+    setState(loadPrefs());
   }, []);
 
   useEffect(() => {
