@@ -640,7 +640,7 @@ body.no-scanlines .scanlines { opacity: 0 !important; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
 /* ── Blog post ── */
-.post-header { margin: 20px 0 32px; }
+.post-header { margin: 20px 0 28px; }
 .draft-badge {
   display: inline-block;
   font-size: 10px;
@@ -650,13 +650,22 @@ body.no-scanlines .scanlines { opacity: 0 !important; }
   padding: 2px 8px;
   margin-bottom: 12px;
 }
-.post-title {
-  font-size: clamp(28px, 5vw, 52px);
+.terminal .post-title {
+  font-size: clamp(27px, 4vw, 48px);
   font-weight: 700;
   letter-spacing: -.02em;
-  line-height: 1.05;
+  line-height: 1.15;
   color: var(--fg);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+}
+@media (max-width: 720px) {
+  .terminal .post-title { font-size: clamp(26px, 7vw, 38px); }
+}
+.post-excerpt {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--fg-dim);
+  margin-bottom: 16px;
 }
 .post-meta-row {
   display: flex;
@@ -664,20 +673,35 @@ body.no-scanlines .scanlines { opacity: 0 !important; }
   gap: 8px;
   flex-wrap: wrap;
 }
-.post-date { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.post-date { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.post-read-time {
+  font-size: 11px;
+  color: var(--muted);
+  padding-left: 8px;
+  border-left: 1px solid var(--faint);
+}
 
 .post-body {
-  max-width: 68ch;
+  max-width: 100%;
   margin: 32px 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.75;
   color: var(--fg-dim);
   border-top: 1px dashed var(--line);
   padding-top: 28px;
 }
 .post-body p { margin-bottom: 20px; }
-.post-body h2 { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .06em; text-transform: uppercase; margin: 36px 0 12px; }
-.post-body h3 { font-size: 18px; font-weight: 600; color: var(--fg); letter-spacing: -.01em; margin: 28px 0 10px; }
+.post-body h2 {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin: 40px 0 14px;
+  padding-left: 10px;
+  border-left: 2px solid var(--accent-dim);
+}
+.post-body h3 { font-size: 17px; font-weight: 600; color: var(--fg); letter-spacing: -.01em; margin: 28px 0 10px; }
 .post-body strong { color: var(--fg); font-weight: 500; }
 .post-body em { color: var(--fg-dim); font-style: italic; }
 .post-body a { color: var(--accent); border-bottom: 1px solid var(--accent-dim); }

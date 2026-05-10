@@ -1,4 +1,4 @@
-import TerminalCLI, { TerminalClock, UptimeDisplay } from '#/components/TerminalCLI';
+import { TerminalClock, UptimeDisplay } from '#/components/TerminalCLI';
 import { getAllPostsMeta } from '#/lib/blog';
 import Link from 'next/link';
 
@@ -534,8 +534,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Interactive: CLI, tweaks, scanlines, clock */}
-      <TerminalCLI />
     </>
   );
 }

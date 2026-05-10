@@ -3,6 +3,17 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 
 const DEFAULTS = { theme: 'classic', scanlines: true, blinkingCursor: true };
+const STORAGE_KEY = 'terminal-prefs';
+
+function loadPrefs() {
+  if (typeof window === 'undefined') return DEFAULTS;
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    return saved ? { ...DEFAULTS, ...JSON.parse(saved) } : DEFAULTS;
+  } catch {
+    return DEFAULTS;
+  }
+}
 
 export function TerminalClock() {
   const [time, setTime] = useState('');
@@ -51,7 +62,7 @@ export default function TerminalCLI() {
   const [tweaksOpen, setTweaksOpen] = useState(false);
   const [lines, setLines] = useState<Array<{ html: string; cls: string }>>([]);
   const [inputVal, setInputVal] = useState('');
-  const [state, setState] = useState(DEFAULTS);
+  const [state, setState] = useState(loadPrefs);
   const history = useRef<string[]>([]);
   const histIdx = useRef(-1);
   const logRef = useRef<HTMLDivElement>(null);
@@ -74,6 +85,7 @@ export default function TerminalCLI() {
     applyTheme(state.theme);
     applyScanlines(state.scanlines);
     applyBlink(state.blinkingCursor);
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
   }, [state, applyTheme, applyScanlines, applyBlink]);
 
   useEffect(() => {

@@ -43,8 +43,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <div className="draft-badge">DRAFT — not published</div>
             )}
             <h1 className="post-title">{post.title}</h1>
+            {post.excerpt && <p className="post-excerpt">{post.excerpt}</p>}
             <div className="post-meta-row">
               <span className="post-date">{post.date}</span>
+              <span className="post-read-time">{post.readingTime} min read</span>
               {post.tags.map(tag => (
                 <span key={tag} className="tag-chip">{tag}</span>
               ))}

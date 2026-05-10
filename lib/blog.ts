@@ -13,10 +13,15 @@ export interface PostMeta {
   tags: string[];
   excerpt: string;
   draft: boolean;
+  readingTime: number;
 }
 
 export interface Post extends PostMeta {
   contentHtml: string;
+}
+
+function readingTime(content: string): number {
+  return Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 200));
 }
 
 function shouldInclude(draft: boolean): boolean {
@@ -32,7 +37,7 @@ export function getAllPostsMeta(): PostMeta[] {
     .filter(f => f.endsWith('.md'))
     .map(filename => {
       const slug = filename.replace(/\.md$/, '');
-      const { data } = matter(fs.readFileSync(path.join(postsDir, filename), 'utf8'));
+      const { data, content } = matter(fs.readFileSync(path.join(postsDir, filename), 'utf8'));
       return {
         slug,
         title: data.title ?? slug,
@@ -40,6 +45,7 @@ export function getAllPostsMeta(): PostMeta[] {
         tags: data.tags ?? [],
         excerpt: data.excerpt ?? '',
         draft: data.draft === true,
+        readingTime: readingTime(content),
       };
     })
     .filter(p => shouldInclude(p.draft))
@@ -66,6 +72,7 @@ export async function getPost(slug: string): Promise<Post | null> {
     tags: data.tags ?? [],
     excerpt: data.excerpt ?? '',
     draft: data.draft === true,
+    readingTime: readingTime(content),
     contentHtml: processed.toString(),
   };
 }
