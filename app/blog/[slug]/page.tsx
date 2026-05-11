@@ -26,8 +26,8 @@ function tokenize(text: string): Map<string, number> {
 
 function cosineSim(a: Map<string, number>, b: Map<string, number>): number {
   let dot = 0;
-  for (const [w, n] of a) dot += n * (b.get(w) || 0);
-  const mag = (m: Map<string, number>) => Math.sqrt([...m.values()].reduce((s, n) => s + n * n, 0));
+  a.forEach((n, w) => { dot += n * (b.get(w) || 0); });
+  const mag = (m: Map<string, number>) => { let s = 0; m.forEach(n => { s += n * n; }); return Math.sqrt(s); };
   const denom = mag(a) * mag(b);
   return denom ? dot / denom : 0;
 }
