@@ -202,7 +202,7 @@
       "source_file": "next-env.d.ts",
       "source_location": "L1",
       "id": "next_env_d_ts",
-      "community": 33,
+      "community": 34,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -211,7 +211,7 @@
       "source_file": "next.config.js",
       "source_location": "L1",
       "id": "next_config_js",
-      "community": 34,
+      "community": 35,
       "norm_label": "next.config.js"
     },
     {
@@ -220,7 +220,7 @@
       "source_file": "postcss.config.js",
       "source_location": "L1",
       "id": "postcss_config_js",
-      "community": 35,
+      "community": 36,
       "norm_label": "postcss.config.js"
     },
     {
@@ -229,23 +229,23 @@
       "source_file": "tailwind.config.js",
       "source_location": "L1",
       "id": "tailwind_config_js",
-      "community": 36,
+      "community": 37,
       "norm_label": "tailwind.config.js"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
-      "source_file": "app\\layout.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\layout.tsx",
       "source_location": "L1",
-      "id": "app_layout_tsx",
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_app_layout_tsx",
       "community": 12,
       "norm_label": "layout.tsx"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
-      "source_file": "app\\layout.tsx",
-      "source_location": "L9",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\layout.tsx",
+      "source_location": "L10",
       "id": "layout_rootlayout",
       "community": 12,
       "norm_label": "rootlayout()"
@@ -253,10 +253,10 @@
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "app\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\page.tsx",
       "source_location": "L1",
-      "id": "app_page_tsx",
-      "community": 37,
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_app_page_tsx",
+      "community": 38,
       "norm_label": "page.tsx"
     },
     {
@@ -283,7 +283,7 @@
       "source_file": "app\\(minimal-resume)\\software-developer\\data.js",
       "source_location": "L1",
       "id": "app_minimal_resume_software_developer_data_js",
-      "community": 38,
+      "community": 39,
       "norm_label": "data.js"
     },
     {
@@ -319,35 +319,71 @@
       "source_file": "app\\blog\\page.tsx",
       "source_location": "L1",
       "id": "app_blog_page_tsx",
-      "community": 39,
+      "community": 40,
       "norm_label": "page.tsx"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "app\\blog\\[slug]\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
       "source_location": "L1",
-      "id": "app_blog_slug_page_tsx",
-      "community": 4,
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "community": 0,
       "norm_label": "page.tsx"
     },
     {
       "label": "generateStaticParams()",
       "file_type": "code",
-      "source_file": "app\\blog\\[slug]\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
       "source_location": "L6",
       "id": "page_generatestaticparams",
-      "community": 4,
+      "community": 0,
       "norm_label": "generatestaticparams()"
     },
     {
       "label": "generateMetadata()",
       "file_type": "code",
-      "source_file": "app\\blog\\[slug]\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
       "source_location": "L10",
       "id": "page_generatemetadata",
-      "community": 4,
+      "community": 0,
       "norm_label": "generatemetadata()"
+    },
+    {
+      "label": "tokenize()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L19",
+      "id": "page_tokenize",
+      "community": 0,
+      "norm_label": "tokenize()"
+    },
+    {
+      "label": "cosineSim()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L27",
+      "id": "page_cosinesim",
+      "community": 0,
+      "norm_label": "cosinesim()"
+    },
+    {
+      "label": "postVector()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L35",
+      "id": "page_postvector",
+      "community": 0,
+      "norm_label": "postvector()"
+    },
+    {
+      "label": "getRelated()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L40",
+      "id": "page_getrelated",
+      "community": 0,
+      "norm_label": "getrelated()"
     },
     {
       "label": "page.tsx",
@@ -373,7 +409,7 @@
       "source_file": "app\\projects\\page.tsx",
       "source_location": "L1",
       "id": "app_projects_page_tsx",
-      "community": 40,
+      "community": 41,
       "norm_label": "page.tsx"
     },
     {
@@ -433,47 +469,74 @@
     {
       "label": "TerminalCLI.tsx",
       "file_type": "code",
-      "source_file": "components\\TerminalCLI.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
       "source_location": "L1",
-      "id": "components_terminalcli_tsx",
-      "community": 8,
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
+      "community": 6,
       "norm_label": "terminalcli.tsx"
+    },
+    {
+      "label": "loadPrefs()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L8",
+      "id": "terminalcli_loadprefs",
+      "community": 6,
+      "norm_label": "loadprefs()"
     },
     {
       "label": "TerminalClock()",
       "file_type": "code",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L7",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L18",
       "id": "terminalcli_terminalclock",
-      "community": 8,
+      "community": 6,
       "norm_label": "terminalclock()"
     },
     {
       "label": "UptimeDisplay()",
       "file_type": "code",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L34",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L45",
       "id": "terminalcli_uptimedisplay",
-      "community": 8,
+      "community": 6,
       "norm_label": "uptimedisplay()"
     },
     {
       "label": "handler()",
       "file_type": "code",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L189",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L205",
       "id": "terminalcli_handler",
-      "community": 8,
+      "community": 6,
       "norm_label": "handler()"
     },
     {
       "label": "handleKey()",
       "file_type": "code",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L199",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L215",
       "id": "terminalcli_handlekey",
-      "community": 8,
+      "community": 6,
       "norm_label": "handlekey()"
+    },
+    {
+      "label": "TerminalCLIGuard.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLIGuard.tsx",
+      "source_location": "L1",
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcliguard_tsx",
+      "community": 18,
+      "norm_label": "terminalcliguard.tsx"
+    },
+    {
+      "label": "TerminalCLIGuard()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLIGuard.tsx",
+      "source_location": "L6",
+      "id": "terminalcliguard_terminalcliguard",
+      "community": 18,
+      "norm_label": "terminalcliguard()"
     },
     {
       "label": "about.jsx",
@@ -481,7 +544,7 @@
       "source_file": "components\\minimal-resume\\about.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_about_jsx",
-      "community": 18,
+      "community": 19,
       "norm_label": "about.jsx"
     },
     {
@@ -490,7 +553,7 @@
       "source_file": "components\\minimal-resume\\about.jsx",
       "source_location": "L1",
       "id": "about_about",
-      "community": 18,
+      "community": 19,
       "norm_label": "about()"
     },
     {
@@ -499,7 +562,7 @@
       "source_file": "components\\minimal-resume\\courses.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_courses_jsx",
-      "community": 19,
+      "community": 20,
       "norm_label": "courses.jsx"
     },
     {
@@ -508,7 +571,7 @@
       "source_file": "components\\minimal-resume\\courses.jsx",
       "source_location": "L1",
       "id": "courses_courses",
-      "community": 19,
+      "community": 20,
       "norm_label": "courses()"
     },
     {
@@ -517,7 +580,7 @@
       "source_file": "components\\minimal-resume\\escape-to-home.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_escape_to_home_jsx",
-      "community": 20,
+      "community": 21,
       "norm_label": "escape-to-home.jsx"
     },
     {
@@ -526,7 +589,7 @@
       "source_file": "components\\minimal-resume\\escape-to-home.jsx",
       "source_location": "L4",
       "id": "escape_to_home_escapetohome",
-      "community": 20,
+      "community": 21,
       "norm_label": "escapetohome()"
     },
     {
@@ -535,7 +598,7 @@
       "source_file": "components\\minimal-resume\\experience.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_experience_jsx",
-      "community": 21,
+      "community": 22,
       "norm_label": "experience.jsx"
     },
     {
@@ -544,7 +607,7 @@
       "source_file": "components\\minimal-resume\\experience.jsx",
       "source_location": "L1",
       "id": "experience_experience",
-      "community": 21,
+      "community": 22,
       "norm_label": "experience()"
     },
     {
@@ -553,7 +616,7 @@
       "source_file": "components\\minimal-resume\\skills.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_skills_jsx",
-      "community": 22,
+      "community": 23,
       "norm_label": "skills.jsx"
     },
     {
@@ -562,7 +625,7 @@
       "source_file": "components\\minimal-resume\\skills.jsx",
       "source_location": "L1",
       "id": "skills_skills",
-      "community": 22,
+      "community": 23,
       "norm_label": "skills()"
     },
     {
@@ -571,7 +634,7 @@
       "source_file": "components\\minimal-resume\\summery.jsx",
       "source_location": "L1",
       "id": "components_minimal_resume_summery_jsx",
-      "community": 23,
+      "community": 24,
       "norm_label": "summery.jsx"
     },
     {
@@ -580,7 +643,7 @@
       "source_file": "components\\minimal-resume\\summery.jsx",
       "source_location": "L1",
       "id": "summery_summery",
-      "community": 23,
+      "community": 24,
       "norm_label": "summery()"
     },
     {
@@ -589,7 +652,7 @@
       "source_file": "components\\resume\\courseCard.jsx",
       "source_location": "L1",
       "id": "components_resume_coursecard_jsx",
-      "community": 24,
+      "community": 25,
       "norm_label": "coursecard.jsx"
     },
     {
@@ -598,7 +661,7 @@
       "source_file": "components\\resume\\courseCard.jsx",
       "source_location": "L1",
       "id": "coursecard_coursecard",
-      "community": 24,
+      "community": 25,
       "norm_label": "coursecard()"
     },
     {
@@ -607,7 +670,7 @@
       "source_file": "components\\resume\\education.jsx",
       "source_location": "L1",
       "id": "components_resume_education_jsx",
-      "community": 25,
+      "community": 26,
       "norm_label": "education.jsx"
     },
     {
@@ -616,7 +679,7 @@
       "source_file": "components\\resume\\education.jsx",
       "source_location": "L1",
       "id": "education_educationcard",
-      "community": 25,
+      "community": 26,
       "norm_label": "educationcard()"
     },
     {
@@ -625,7 +688,7 @@
       "source_file": "components\\resume\\experienceCard.jsx",
       "source_location": "L1",
       "id": "components_resume_experiencecard_jsx",
-      "community": 26,
+      "community": 27,
       "norm_label": "experiencecard.jsx"
     },
     {
@@ -634,7 +697,7 @@
       "source_file": "components\\resume\\experienceCard.jsx",
       "source_location": "L1",
       "id": "experiencecard_experiencecard",
-      "community": 26,
+      "community": 27,
       "norm_label": "experiencecard()"
     },
     {
@@ -643,7 +706,7 @@
       "source_file": "components\\resume\\info.jsx",
       "source_location": "L1",
       "id": "components_resume_info_jsx",
-      "community": 27,
+      "community": 28,
       "norm_label": "info.jsx"
     },
     {
@@ -652,7 +715,7 @@
       "source_file": "components\\resume\\info.jsx",
       "source_location": "L1",
       "id": "info_info",
-      "community": 27,
+      "community": 28,
       "norm_label": "info()"
     },
     {
@@ -661,7 +724,7 @@
       "source_file": "components\\resume\\intrestCard.jsx",
       "source_location": "L1",
       "id": "components_resume_intrestcard_jsx",
-      "community": 28,
+      "community": 29,
       "norm_label": "intrestcard.jsx"
     },
     {
@@ -670,7 +733,7 @@
       "source_file": "components\\resume\\intrestCard.jsx",
       "source_location": "L1",
       "id": "intrestcard_intrestcard",
-      "community": 28,
+      "community": 29,
       "norm_label": "intrestcard()"
     },
     {
@@ -679,7 +742,7 @@
       "source_file": "components\\resume\\otherSkillsCard.jsx",
       "source_location": "L1",
       "id": "components_resume_otherskillscard_jsx",
-      "community": 29,
+      "community": 30,
       "norm_label": "otherskillscard.jsx"
     },
     {
@@ -688,7 +751,7 @@
       "source_file": "components\\resume\\otherSkillsCard.jsx",
       "source_location": "L1",
       "id": "otherskillscard_otherskillscard",
-      "community": 29,
+      "community": 30,
       "norm_label": "otherskillscard()"
     },
     {
@@ -697,7 +760,7 @@
       "source_file": "components\\resume\\profileCard.jsx",
       "source_location": "L1",
       "id": "components_resume_profilecard_jsx",
-      "community": 30,
+      "community": 31,
       "norm_label": "profilecard.jsx"
     },
     {
@@ -706,7 +769,7 @@
       "source_file": "components\\resume\\profileCard.jsx",
       "source_location": "L4",
       "id": "profilecard_profilecard",
-      "community": 30,
+      "community": 31,
       "norm_label": "profilecard()"
     },
     {
@@ -715,7 +778,7 @@
       "source_file": "components\\resume\\skillsCard.jsx",
       "source_location": "L1",
       "id": "components_resume_skillscard_jsx",
-      "community": 31,
+      "community": 32,
       "norm_label": "skillscard.jsx"
     },
     {
@@ -724,7 +787,7 @@
       "source_file": "components\\resume\\skillsCard.jsx",
       "source_location": "L1",
       "id": "skillscard_skillscard",
-      "community": 31,
+      "community": 32,
       "norm_label": "skillscard()"
     },
     {
@@ -733,7 +796,7 @@
       "source_file": "components\\resume\\summeryCard.jsx",
       "source_location": "L1",
       "id": "components_resume_summerycard_jsx",
-      "community": 32,
+      "community": 33,
       "norm_label": "summerycard.jsx"
     },
     {
@@ -742,52 +805,61 @@
       "source_file": "components\\resume\\summeryCard.jsx",
       "source_location": "L1",
       "id": "summerycard_summerycard",
-      "community": 32,
+      "community": 33,
       "norm_label": "summerycard()"
     },
     {
       "label": "blog.ts",
       "file_type": "code",
-      "source_file": "lib\\blog.ts",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
       "source_location": "L1",
-      "id": "lib_blog_ts",
-      "community": 4,
+      "id": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
+      "community": 0,
       "norm_label": "blog.ts"
+    },
+    {
+      "label": "readingTime()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L23",
+      "id": "blog_readingtime",
+      "community": 0,
+      "norm_label": "readingtime()"
     },
     {
       "label": "shouldInclude()",
       "file_type": "code",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L22",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L27",
       "id": "blog_shouldinclude",
-      "community": 4,
+      "community": 0,
       "norm_label": "shouldinclude()"
     },
     {
       "label": "getAllPostsMeta()",
       "file_type": "code",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L27",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L32",
       "id": "blog_getallpostsmeta",
-      "community": 4,
+      "community": 0,
       "norm_label": "getallpostsmeta()"
     },
     {
       "label": "getAllSlugs()",
       "file_type": "code",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L49",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L55",
       "id": "blog_getallslugs",
-      "community": 4,
+      "community": 0,
       "norm_label": "getallslugs()"
     },
     {
       "label": "getPost()",
       "file_type": "code",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L53",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L59",
       "id": "blog_getpost",
-      "community": 4,
+      "community": 0,
       "norm_label": "getpost()"
     },
     {
@@ -799,9 +871,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_nextjs_project",
-      "community": 6,
-      "norm_label": "next.js portfolio project"
+      "community": 8,
+      "norm_label": "next.js portfolio project",
+      "id": "readme_nextjs_project"
     },
     {
       "label": "create-next-app Bootstrap Tool",
@@ -812,9 +884,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_create_next_app",
-      "community": 6,
-      "norm_label": "create-next-app bootstrap tool"
+      "community": 8,
+      "norm_label": "create-next-app bootstrap tool",
+      "id": "readme_create_next_app"
     },
     {
       "label": "next/font (Inter Google Font Optimization)",
@@ -825,9 +897,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_next_font",
-      "community": 6,
-      "norm_label": "next/font (inter google font optimization)"
+      "community": 8,
+      "norm_label": "next/font (inter google font optimization)",
+      "id": "readme_next_font"
     },
     {
       "label": "Vercel Deployment Platform",
@@ -838,22 +910,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_vercel_deploy",
-      "community": 6,
-      "norm_label": "vercel deployment platform"
-    },
-    {
-      "label": "app/page.tsx Entry Point",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": "line 17",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_app_page_tsx",
-      "community": 6,
-      "norm_label": "app/page.tsx entry point"
+      "community": 8,
+      "norm_label": "vercel deployment platform",
+      "id": "readme_vercel_deploy"
     },
     {
       "label": "Draft Example Blog Post",
@@ -864,9 +923,9 @@
       "captured_at": "2026-04-18",
       "author": null,
       "contributor": null,
-      "id": "draft_example_post",
       "community": 11,
-      "norm_label": "draft example blog post"
+      "norm_label": "draft example blog post",
+      "id": "draft_example_post"
     },
     {
       "label": "Draft Flag (draft: true)",
@@ -877,9 +936,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "draft_draft_flag",
       "community": 11,
-      "norm_label": "draft flag (draft: true)"
+      "norm_label": "draft flag (draft: true)",
+      "id": "draft_draft_flag"
     },
     {
       "label": "npm run dev (Dev-Only Draft Visibility)",
@@ -890,9 +949,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "draft_npm_run_dev",
       "community": 11,
-      "norm_label": "npm run dev (dev-only draft visibility)"
+      "norm_label": "npm run dev (dev-only draft visibility)",
+      "id": "draft_npm_run_dev"
     },
     {
       "label": "Blog Post: RAG is Plumbing",
@@ -903,9 +962,9 @@
       "captured_at": "2025-12-10",
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "rag_post",
-      "community": 2,
-      "norm_label": "blog post: rag is plumbing"
+      "community": 3,
+      "norm_label": "blog post: rag is plumbing",
+      "id": "rag_post"
     },
     {
       "label": "RAG (Retrieval-Augmented Generation)",
@@ -916,9 +975,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_rag",
-      "community": 2,
-      "norm_label": "rag (retrieval-augmented generation)"
+      "community": 3,
+      "norm_label": "rag (retrieval-augmented generation)",
+      "id": "rag_concept_rag"
     },
     {
       "label": "Chunking Strategy (RAG)",
@@ -929,9 +988,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_chunking",
-      "community": 2,
-      "norm_label": "chunking strategy (rag)"
+      "community": 3,
+      "norm_label": "chunking strategy (rag)",
+      "id": "rag_concept_chunking"
     },
     {
       "label": "Embedding Models",
@@ -942,9 +1001,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_embeddings",
-      "community": 2,
-      "norm_label": "embedding models"
+      "community": 3,
+      "norm_label": "embedding models",
+      "id": "rag_concept_embeddings"
     },
     {
       "label": "Retrieval vs Relevance (cosine similarity / BM25)",
@@ -955,9 +1014,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_retrieval",
-      "community": 2,
-      "norm_label": "retrieval vs relevance (cosine similarity / bm25)"
+      "community": 3,
+      "norm_label": "retrieval vs relevance (cosine similarity / bm25)",
+      "id": "rag_concept_retrieval"
     },
     {
       "label": "RAG Evaluation (eval set, recall measurement)",
@@ -968,9 +1027,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_eval",
-      "community": 2,
-      "norm_label": "rag evaluation (eval set, recall measurement)"
+      "community": 3,
+      "norm_label": "rag evaluation (eval set, recall measurement)",
+      "id": "rag_concept_eval"
     },
     {
       "label": "Prompt Engineering (context presentation, citations)",
@@ -981,9 +1040,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_concept_prompt_engineering",
-      "community": 2,
-      "norm_label": "prompt engineering (context presentation, citations)"
+      "community": 3,
+      "norm_label": "prompt engineering (context presentation, citations)",
+      "id": "rag_concept_prompt_engineering"
     },
     {
       "label": "Rationale: Treat RAG as Boring Plumbing, Not Magic",
@@ -994,9 +1053,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_rationale_boring_infra",
-      "community": 2,
-      "norm_label": "rationale: treat rag as boring plumbing, not magic"
+      "community": 3,
+      "norm_label": "rationale: treat rag as boring plumbing, not magic",
+      "id": "rag_rationale_boring_infra"
     },
     {
       "label": "Rationale: Build Evals Before Touching LLM",
@@ -1007,9 +1066,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rag_rationale_eval_first",
-      "community": 2,
-      "norm_label": "rationale: build evals before touching llm"
+      "community": 3,
+      "norm_label": "rationale: build evals before touching llm",
+      "id": "rag_rationale_eval_first"
     },
     {
       "label": "Rahul Gupta - Resume",
@@ -1020,9 +1079,9 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "resume_rahul_gupta",
-      "community": 3,
-      "norm_label": "rahul gupta - resume"
+      "community": 4,
+      "norm_label": "rahul gupta - resume",
+      "id": "resume_rahul_gupta"
     },
     {
       "label": "Rahul Gupta (Person)",
@@ -1033,9 +1092,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_person_rahul",
-      "community": 3,
-      "norm_label": "rahul gupta (person)"
+      "community": 4,
+      "norm_label": "rahul gupta (person)",
+      "id": "resume_person_rahul"
     },
     {
       "label": "QuantDirection (via Cloudstaff LLP)",
@@ -1046,9 +1105,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_employer_quantdirection",
-      "community": 3,
-      "norm_label": "quantdirection (via cloudstaff llp)"
+      "community": 4,
+      "norm_label": "quantdirection (via cloudstaff llp)",
+      "id": "resume_employer_quantdirection"
     },
     {
       "label": "Nexsales Solutions Pvt Ltd",
@@ -1059,9 +1118,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_employer_nexsales",
       "community": 5,
-      "norm_label": "nexsales solutions pvt ltd"
+      "norm_label": "nexsales solutions pvt ltd",
+      "id": "resume_employer_nexsales"
     },
     {
       "label": "Saryu Business Solutions",
@@ -1072,9 +1131,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_employer_saryu",
-      "community": 3,
-      "norm_label": "saryu business solutions"
+      "community": 4,
+      "norm_label": "saryu business solutions",
+      "id": "resume_employer_saryu"
     },
     {
       "label": "Node.js",
@@ -1085,9 +1144,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_nodejs",
-      "community": 41,
-      "norm_label": "node.js"
+      "community": 42,
+      "norm_label": "node.js",
+      "id": "resume_skill_nodejs"
     },
     {
       "label": "Python",
@@ -1098,9 +1157,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_python",
-      "community": 42,
-      "norm_label": "python"
+      "community": 43,
+      "norm_label": "python",
+      "id": "resume_skill_python"
     },
     {
       "label": "Go (Golang)",
@@ -1111,9 +1170,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_go",
-      "community": 43,
-      "norm_label": "go (golang)"
+      "community": 44,
+      "norm_label": "go (golang)",
+      "id": "resume_skill_go"
     },
     {
       "label": "Docker",
@@ -1124,9 +1183,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_docker",
-      "community": 3,
-      "norm_label": "docker"
+      "community": 4,
+      "norm_label": "docker",
+      "id": "resume_skill_docker"
     },
     {
       "label": "GCP (Google Cloud Platform)",
@@ -1137,9 +1196,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_gcp",
       "community": 5,
-      "norm_label": "gcp (google cloud platform)"
+      "norm_label": "gcp (google cloud platform)",
+      "id": "resume_skill_gcp"
     },
     {
       "label": "AWS",
@@ -1150,9 +1209,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_aws",
       "community": 5,
-      "norm_label": "aws"
+      "norm_label": "aws",
+      "id": "resume_skill_aws"
     },
     {
       "label": "Next.js (skill)",
@@ -1163,9 +1222,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_nextjs",
-      "community": 6,
-      "norm_label": "next.js (skill)"
+      "community": 8,
+      "norm_label": "next.js (skill)",
+      "id": "resume_skill_nextjs"
     },
     {
       "label": "TensorFlow",
@@ -1176,9 +1235,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_tensorflow",
       "community": 5,
-      "norm_label": "tensorflow"
+      "norm_label": "tensorflow",
+      "id": "resume_skill_tensorflow"
     },
     {
       "label": "Auth0 (OAuth)",
@@ -1189,9 +1248,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_auth0",
       "community": 5,
-      "norm_label": "auth0 (oauth)"
+      "norm_label": "auth0 (oauth)",
+      "id": "resume_skill_auth0"
     },
     {
       "label": "Machine Learning / AI",
@@ -1202,9 +1261,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_skill_ml_ai",
       "community": 5,
-      "norm_label": "machine learning / ai"
+      "norm_label": "machine learning / ai",
+      "id": "resume_skill_ml_ai"
     },
     {
       "label": "Auto-Trading Pipelines (QuantDirection)",
@@ -1215,9 +1274,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_project_autotrading",
-      "community": 3,
-      "norm_label": "auto-trading pipelines (quantdirection)"
+      "community": 4,
+      "norm_label": "auto-trading pipelines (quantdirection)",
+      "id": "resume_project_autotrading"
     },
     {
       "label": "Artificial Neural Network in TensorFlow (Nexsales)",
@@ -1228,9 +1287,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_project_ann_tensorflow",
       "community": 5,
-      "norm_label": "artificial neural network in tensorflow (nexsales)"
+      "norm_label": "artificial neural network in tensorflow (nexsales)",
+      "id": "resume_project_ann_tensorflow"
     },
     {
       "label": "Static Site Generator (Saryu)",
@@ -1241,9 +1300,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_project_static_site_gen",
-      "community": 3,
-      "norm_label": "static site generator (saryu)"
+      "community": 4,
+      "norm_label": "static site generator (saryu)",
+      "id": "resume_project_static_site_gen"
     },
     {
       "label": "M.Sc. Computer Science - K.C. College (2020-2022)",
@@ -1254,9 +1313,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_edu_msc",
-      "community": 3,
-      "norm_label": "m.sc. computer science - k.c. college (2020-2022)"
+      "community": 4,
+      "norm_label": "m.sc. computer science - k.c. college (2020-2022)",
+      "id": "resume_edu_msc"
     },
     {
       "label": "B.Sc. Information Technology - Hinduja College (2017-2020)",
@@ -1267,9 +1326,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "resume_edu_bsc",
-      "community": 3,
-      "norm_label": "b.sc. information technology - hinduja college (2017-2020)"
+      "community": 4,
+      "norm_label": "b.sc. information technology - hinduja college (2017-2020)",
+      "id": "resume_edu_bsc"
     },
     {
       "label": "Rahul Profile Photo (assets)",
@@ -1280,9 +1339,9 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "rahul_jpg_assets_profile_photo",
       "community": 7,
-      "norm_label": "rahul profile photo (assets)"
+      "norm_label": "rahul profile photo (assets)",
+      "id": "rahul_jpg_assets_profile_photo"
     },
     {
       "label": "Illustrated SVG Avatar Portrait",
@@ -1293,9 +1352,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "potrait_svg_illustrated_avatar",
       "community": 7,
-      "norm_label": "illustrated svg avatar portrait"
+      "norm_label": "illustrated svg avatar portrait",
+      "id": "potrait_svg_illustrated_avatar"
     },
     {
       "label": "Rahul Profile Photo (public)",
@@ -1306,9 +1365,9 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "rahul_jpg_public_profile_photo",
       "community": 7,
-      "norm_label": "rahul profile photo (public)"
+      "norm_label": "rahul profile photo (public)",
+      "id": "rahul_jpg_public_profile_photo"
     },
     {
       "label": "Rahul Gupta",
@@ -1319,9 +1378,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rahul_gupta_person",
       "community": 7,
-      "norm_label": "rahul gupta"
+      "norm_label": "rahul gupta",
+      "id": "rahul_gupta_person"
     },
     {
       "label": "Portfolio Site Identity / Branding",
@@ -1332,9 +1391,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "portfolio_site_identity",
       "community": 7,
-      "norm_label": "portfolio site identity / branding"
+      "norm_label": "portfolio site identity / branding",
+      "id": "portfolio_site_identity"
     },
     {
       "label": "Adobe Illustrator 26.0.0",
@@ -1345,9 +1404,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "adobe_illustrator_tool",
       "community": 7,
-      "norm_label": "adobe illustrator 26.0.0"
+      "norm_label": "adobe illustrator 26.0.0",
+      "id": "adobe_illustrator_tool"
     },
     {
       "label": "CSS3",
@@ -1358,9 +1417,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "css3_CSS3",
-      "community": 1,
-      "norm_label": "css3"
+      "community": 2,
+      "norm_label": "css3",
+      "id": "css3_CSS3"
     },
     {
       "label": "Flutter",
@@ -1371,9 +1430,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "flutter_Flutter",
-      "community": 1,
-      "norm_label": "flutter"
+      "community": 2,
+      "norm_label": "flutter",
+      "id": "flutter_Flutter"
     },
     {
       "label": "Git",
@@ -1384,9 +1443,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "git_Git",
       "community": 9,
-      "norm_label": "git"
+      "norm_label": "git",
+      "id": "git_Git"
     },
     {
       "label": "GitHub",
@@ -1397,9 +1456,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "github_GitHub",
       "community": 9,
-      "norm_label": "github"
+      "norm_label": "github",
+      "id": "github_GitHub"
     },
     {
       "label": "HTML5",
@@ -1410,9 +1469,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "html5_HTML5",
-      "community": 1,
-      "norm_label": "html5"
+      "community": 2,
+      "norm_label": "html5",
+      "id": "html5_HTML5"
     },
     {
       "label": "JavaScript",
@@ -1423,9 +1482,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "javascript_JavaScript",
-      "community": 1,
-      "norm_label": "javascript"
+      "community": 2,
+      "norm_label": "javascript",
+      "id": "javascript_JavaScript"
     },
     {
       "label": "Jupyter Notebook",
@@ -1436,9 +1495,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "jupyter_Jupyter",
-      "community": 1,
-      "norm_label": "jupyter notebook"
+      "community": 2,
+      "norm_label": "jupyter notebook",
+      "id": "jupyter_Jupyter"
     },
     {
       "label": "LinkedIn",
@@ -1449,9 +1508,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linkedin_LinkedIn",
       "community": 9,
-      "norm_label": "linkedin"
+      "norm_label": "linkedin",
+      "id": "linkedin_LinkedIn"
     },
     {
       "label": "Node.js",
@@ -1462,9 +1521,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "nodejs_NodeJS",
-      "community": 1,
-      "norm_label": "node.js"
+      "community": 2,
+      "norm_label": "node.js",
+      "id": "nodejs_NodeJS"
     },
     {
       "label": "Python",
@@ -1475,9 +1534,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "python_Python",
-      "community": 1,
-      "norm_label": "python"
+      "community": 2,
+      "norm_label": "python",
+      "id": "python_Python"
     },
     {
       "label": "React",
@@ -1488,9 +1547,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "react_React",
-      "community": 1,
-      "norm_label": "react"
+      "community": 2,
+      "norm_label": "react",
+      "id": "react_React"
     },
     {
       "label": "Tailwind CSS",
@@ -1501,9 +1560,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tailwind_TailwindCSS",
-      "community": 1,
-      "norm_label": "tailwind css"
+      "community": 2,
+      "norm_label": "tailwind css",
+      "id": "tailwind_TailwindCSS"
     },
     {
       "label": "Twitter",
@@ -1514,9 +1573,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "twitter_Twitter",
       "community": 9,
-      "norm_label": "twitter"
+      "norm_label": "twitter",
+      "id": "twitter_Twitter"
     },
     {
       "label": "Vue.js",
@@ -1527,9 +1586,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vuejs_VueJS",
-      "community": 1,
-      "norm_label": "vue.js"
+      "community": 2,
+      "norm_label": "vue.js",
+      "id": "vuejs_VueJS"
     },
     {
       "label": "Neuroevolution Flappy Bird Game",
@@ -1540,9 +1599,9 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "neuroevolution_project",
-      "community": 0,
-      "norm_label": "neuroevolution flappy bird game"
+      "community": 1,
+      "norm_label": "neuroevolution flappy bird game",
+      "id": "neuroevolution_project"
     },
     {
       "label": "Genetic Algorithm Engine",
@@ -1553,9 +1612,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neuroevolution_genetic_algorithm",
-      "community": 0,
-      "norm_label": "genetic algorithm engine"
+      "community": 1,
+      "norm_label": "genetic algorithm engine",
+      "id": "neuroevolution_genetic_algorithm"
     },
     {
       "label": "Neural Network Agent Controller",
@@ -1566,9 +1625,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neuroevolution_neural_network",
-      "community": 0,
-      "norm_label": "neural network agent controller"
+      "community": 1,
+      "norm_label": "neural network agent controller",
+      "id": "neuroevolution_neural_network"
     },
     {
       "label": "HTML5 Canvas Game Renderer",
@@ -1579,9 +1638,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neuroevolution_game_canvas",
-      "community": 0,
-      "norm_label": "html5 canvas game renderer"
+      "community": 1,
+      "norm_label": "html5 canvas game renderer",
+      "id": "neuroevolution_game_canvas"
     },
     {
       "label": "Simulation Controls UI",
@@ -1592,9 +1651,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neuroevolution_controls",
-      "community": 0,
-      "norm_label": "simulation controls ui"
+      "community": 1,
+      "norm_label": "simulation controls ui",
+      "id": "neuroevolution_controls"
     },
     {
       "label": "Score and Generation Tracker",
@@ -1605,9 +1664,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "neuroevolution_score_tracker",
-      "community": 0,
-      "norm_label": "score and generation tracker"
+      "community": 1,
+      "norm_label": "score and generation tracker",
+      "id": "neuroevolution_score_tracker"
     },
     {
       "label": "QuickSplit Expense Splitter App",
@@ -1618,9 +1677,9 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "quicksplit_project",
-      "community": 0,
-      "norm_label": "quicksplit expense splitter app"
+      "community": 1,
+      "norm_label": "quicksplit expense splitter app",
+      "id": "quicksplit_project"
     },
     {
       "label": "Serverless No-Account Architecture",
@@ -1631,9 +1690,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quicksplit_serverless_design",
-      "community": 0,
-      "norm_label": "serverless no-account architecture"
+      "community": 1,
+      "norm_label": "serverless no-account architecture",
+      "id": "quicksplit_serverless_design"
     },
     {
       "label": "Split Session Management",
@@ -1644,9 +1703,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quicksplit_split_session",
-      "community": 0,
-      "norm_label": "split session management"
+      "community": 1,
+      "norm_label": "split session management",
+      "id": "quicksplit_split_session"
     },
     {
       "label": "Minimal Card-Based UI Design",
@@ -1657,9 +1716,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quicksplit_ui_design",
-      "community": 0,
-      "norm_label": "minimal card-based ui design"
+      "community": 1,
+      "norm_label": "minimal card-based ui design",
+      "id": "quicksplit_ui_design"
     },
     {
       "label": "Recent Splits History List",
@@ -1670,9 +1729,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quicksplit_recent_splits",
-      "community": 0,
-      "norm_label": "recent splits history list"
+      "community": 1,
+      "norm_label": "recent splits history list",
+      "id": "quicksplit_recent_splits"
     },
     {
       "label": "Portfolio Projects Collection",
@@ -1683,21 +1742,21 @@
       "captured_at": null,
       "author": "Rahul Gupta",
       "contributor": null,
-      "id": "portfolio_projects_collection",
-      "community": 0,
-      "norm_label": "portfolio projects collection"
+      "community": 1,
+      "norm_label": "portfolio projects collection",
+      "id": "portfolio_projects_collection"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app\\layout.tsx",
-      "source_location": "L9",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\layout.tsx",
+      "source_location": "L10",
       "weight": 1.0,
-      "_src": "app_layout_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_layout_tsx",
       "_tgt": "layout_rootlayout",
-      "source": "app_layout_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_layout_tsx",
       "target": "layout_rootlayout",
       "confidence_score": 1.0
     },
@@ -1740,25 +1799,73 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app\\blog\\[slug]\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "_src": "app_blog_slug_page_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
       "_tgt": "page_generatestaticparams",
-      "source": "app_blog_slug_page_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
       "target": "page_generatestaticparams",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app\\blog\\[slug]\\page.tsx",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "app_blog_slug_page_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
       "_tgt": "page_generatemetadata",
-      "source": "app_blog_slug_page_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
       "target": "page_generatemetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "_tgt": "page_tokenize",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "target": "page_tokenize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "_tgt": "page_cosinesim",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "target": "page_cosinesim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "_tgt": "page_postvector",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "target": "page_postvector",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "_tgt": "page_getrelated",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_app_blog_slug_page_tsx",
+      "target": "page_getrelated",
       "confidence_score": 1.0
     },
     {
@@ -1784,6 +1891,42 @@
       "_tgt": "blog_getpost",
       "source": "page_generatemetadata",
       "target": "blog_getpost"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "page_postvector",
+      "_tgt": "page_tokenize",
+      "source": "page_tokenize",
+      "target": "page_postvector",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "page_getrelated",
+      "_tgt": "page_postvector",
+      "source": "page_postvector",
+      "target": "page_getrelated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\app\\blog\\[slug]\\page.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "page_getrelated",
+      "_tgt": "blog_getallpostsmeta",
+      "source": "page_getrelated",
+      "target": "blog_getallpostsmeta"
     },
     {
       "relation": "contains",
@@ -1836,49 +1979,73 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L7",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L8",
       "weight": 1.0,
-      "_src": "components_terminalcli_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
+      "_tgt": "terminalcli_loadprefs",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
+      "target": "terminalcli_loadprefs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "_tgt": "terminalcli_terminalclock",
-      "source": "components_terminalcli_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "target": "terminalcli_terminalclock",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L34",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L45",
       "weight": 1.0,
-      "_src": "components_terminalcli_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "_tgt": "terminalcli_uptimedisplay",
-      "source": "components_terminalcli_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "target": "terminalcli_uptimedisplay",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L189",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L205",
       "weight": 1.0,
-      "_src": "components_terminalcli_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "_tgt": "terminalcli_handler",
-      "source": "components_terminalcli_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "target": "terminalcli_handler",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components\\TerminalCLI.tsx",
-      "source_location": "L199",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLI.tsx",
+      "source_location": "L215",
       "weight": 1.0,
-      "_src": "components_terminalcli_tsx",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "_tgt": "terminalcli_handlekey",
-      "source": "components_terminalcli_tsx",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcli_tsx",
       "target": "terminalcli_handlekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\components\\TerminalCLIGuard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcliguard_tsx",
+      "_tgt": "terminalcliguard_terminalcliguard",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_components_terminalcliguard_tsx",
+      "target": "terminalcliguard_terminalcliguard",
       "confidence_score": 1.0
     },
     {
@@ -2064,56 +2231,80 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L22",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L23",
       "weight": 1.0,
-      "_src": "lib_blog_ts",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
+      "_tgt": "blog_readingtime",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
+      "target": "blog_readingtime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "_tgt": "blog_shouldinclude",
-      "source": "lib_blog_ts",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "target": "blog_shouldinclude",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L27",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L32",
       "weight": 1.0,
-      "_src": "lib_blog_ts",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "_tgt": "blog_getallpostsmeta",
-      "source": "lib_blog_ts",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "target": "blog_getallpostsmeta",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L49",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L55",
       "weight": 1.0,
-      "_src": "lib_blog_ts",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "_tgt": "blog_getallslugs",
-      "source": "lib_blog_ts",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "target": "blog_getallslugs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L53",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L59",
       "weight": 1.0,
-      "_src": "lib_blog_ts",
+      "_src": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "_tgt": "blog_getpost",
-      "source": "lib_blog_ts",
+      "source": "c_users_rahul_dev_rahul_rahul1115_github_io_lib_blog_ts",
       "target": "blog_getpost",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L58",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "blog_getpost",
+      "_tgt": "blog_readingtime",
+      "source": "blog_readingtime",
+      "target": "blog_getpost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L64",
       "weight": 1.0,
       "_src": "blog_getpost",
       "_tgt": "blog_shouldinclude",
@@ -2124,8 +2315,8 @@
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
-      "source_file": "lib\\blog.ts",
-      "source_location": "L50",
+      "source_file": "C:\\Users\\rahul\\Dev\\rahul\\rahul1115.github.io\\lib\\blog.ts",
+      "source_location": "L56",
       "weight": 1.0,
       "_src": "blog_getallslugs",
       "_tgt": "blog_getallpostsmeta",
@@ -2170,26 +2361,14 @@
       "target": "readme_vercel_deploy"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "line 17",
-      "weight": 1.0,
-      "_src": "readme_nextjs_project",
-      "_tgt": "readme_app_page_tsx",
-      "source": "readme_nextjs_project",
-      "target": "readme_app_page_tsx"
-    },
-    {
       "relation": "semantically_similar_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "public/Rahul-Gupta.pdf",
       "source_location": "Skills section",
       "weight": 0.85,
-      "_src": "resume_skill_nextjs",
-      "_tgt": "readme_nextjs_project",
+      "_src": "readme_nextjs_project",
+      "_tgt": "resume_skill_nextjs",
       "source": "readme_nextjs_project",
       "target": "resume_skill_nextjs"
     },
@@ -2200,8 +2379,8 @@
       "source_file": "public/Rahul-Gupta.pdf",
       "source_location": "Experience: Saryu",
       "weight": 0.65,
-      "_src": "resume_project_static_site_gen",
-      "_tgt": "readme_nextjs_project",
+      "_src": "readme_nextjs_project",
+      "_tgt": "resume_project_static_site_gen",
       "source": "readme_nextjs_project",
       "target": "resume_project_static_site_gen"
     },
@@ -2320,8 +2499,8 @@
       "source_file": "content/blog/rag-is-plumbing.md",
       "source_location": "line 9-30",
       "weight": 1.0,
-      "_src": "rag_rationale_boring_infra",
-      "_tgt": "rag_concept_rag",
+      "_src": "rag_concept_rag",
+      "_tgt": "rag_rationale_boring_infra",
       "source": "rag_concept_rag",
       "target": "rag_rationale_boring_infra"
     },
@@ -2332,8 +2511,8 @@
       "source_file": "public/Rahul-Gupta.pdf",
       "source_location": "Skills section",
       "weight": 0.7,
-      "_src": "resume_skill_ml_ai",
-      "_tgt": "rag_concept_rag",
+      "_src": "rag_concept_rag",
+      "_tgt": "resume_skill_ml_ai",
       "source": "rag_concept_rag",
       "target": "resume_skill_ml_ai"
     },
@@ -2356,8 +2535,8 @@
       "source_file": "content/blog/rag-is-plumbing.md",
       "source_location": "line 25-28",
       "weight": 1.0,
-      "_src": "rag_rationale_eval_first",
-      "_tgt": "rag_concept_eval",
+      "_src": "rag_concept_eval",
+      "_tgt": "rag_rationale_eval_first",
       "source": "rag_concept_eval",
       "target": "rag_rationale_eval_first"
     },
@@ -2524,8 +2703,8 @@
       "source_file": "public/Rahul-Gupta.pdf",
       "source_location": "Experience: Nexsales",
       "weight": 1.0,
-      "_src": "resume_project_ann_tensorflow",
-      "_tgt": "resume_skill_tensorflow",
+      "_src": "resume_skill_tensorflow",
+      "_tgt": "resume_project_ann_tensorflow",
       "source": "resume_skill_tensorflow",
       "target": "resume_project_ann_tensorflow"
     },
@@ -2536,8 +2715,8 @@
       "source_file": "public/Rahul-Gupta.pdf",
       "source_location": "Experience: Nexsales",
       "weight": 1.0,
-      "_src": "resume_project_ann_tensorflow",
-      "_tgt": "resume_skill_ml_ai",
+      "_src": "resume_skill_ml_ai",
+      "_tgt": "resume_project_ann_tensorflow",
       "source": "resume_skill_ml_ai",
       "target": "resume_project_ann_tensorflow"
     },
@@ -2620,8 +2799,8 @@
       "source_file": "public/img/potrait.svg",
       "source_location": "line 2",
       "weight": 1.0,
-      "_src": "adobe_illustrator_tool",
-      "_tgt": "potrait_svg_illustrated_avatar",
+      "_src": "potrait_svg_illustrated_avatar",
+      "_tgt": "adobe_illustrator_tool",
       "source": "potrait_svg_illustrated_avatar",
       "target": "adobe_illustrator_tool"
     },
@@ -2656,8 +2835,8 @@
       "source_file": "public/img/icon/html-5.png",
       "source_location": null,
       "weight": 1.0,
-      "_src": "html5_HTML5",
-      "_tgt": "css3_CSS3",
+      "_src": "css3_CSS3",
+      "_tgt": "html5_HTML5",
       "source": "css3_CSS3",
       "target": "html5_HTML5"
     },
@@ -2680,8 +2859,8 @@
       "source_file": "public/img/icon/react.png",
       "source_location": null,
       "weight": 0.7,
-      "_src": "react_React",
-      "_tgt": "flutter_Flutter",
+      "_src": "flutter_Flutter",
+      "_tgt": "react_React",
       "source": "flutter_Flutter",
       "target": "react_React"
     },
@@ -2692,8 +2871,8 @@
       "source_file": "public/img/icon/vue-js.png",
       "source_location": null,
       "weight": 0.7,
-      "_src": "vuejs_VueJS",
-      "_tgt": "flutter_Flutter",
+      "_src": "flutter_Flutter",
+      "_tgt": "vuejs_VueJS",
       "source": "flutter_Flutter",
       "target": "vuejs_VueJS"
     },
@@ -2752,8 +2931,8 @@
       "source_file": "public/img/icon/tailwind.png",
       "source_location": null,
       "weight": 0.85,
-      "_src": "tailwind_TailwindCSS",
-      "_tgt": "html5_HTML5",
+      "_src": "html5_HTML5",
+      "_tgt": "tailwind_TailwindCSS",
       "source": "html5_HTML5",
       "target": "tailwind_TailwindCSS"
     },
@@ -2800,8 +2979,8 @@
       "source_file": "public/img/icon/python.png",
       "source_location": null,
       "weight": 0.9,
-      "_src": "python_Python",
-      "_tgt": "jupyter_Jupyter",
+      "_src": "jupyter_Jupyter",
+      "_tgt": "python_Python",
       "source": "jupyter_Jupyter",
       "target": "python_Python"
     },
@@ -2920,8 +3099,8 @@
       "source_file": "public/img/projects/quicksplit.png",
       "source_location": "both are portfolio projects by same author",
       "weight": 0.7,
-      "_src": "quicksplit_project",
-      "_tgt": "neuroevolution_project",
+      "_src": "neuroevolution_project",
+      "_tgt": "quicksplit_project",
       "source": "neuroevolution_project",
       "target": "quicksplit_project"
     },
@@ -2944,8 +3123,8 @@
       "source_file": "public/img/projects/neuroevolution.png",
       "source_location": "Mutation :0.2, Crossover :0.01 sliders control GA params",
       "weight": 1.0,
-      "_src": "neuroevolution_controls",
-      "_tgt": "neuroevolution_genetic_algorithm",
+      "_src": "neuroevolution_genetic_algorithm",
+      "_tgt": "neuroevolution_controls",
       "source": "neuroevolution_genetic_algorithm",
       "target": "neuroevolution_controls"
     },
