@@ -1,12 +1,12 @@
 ---
-title: "AutoResearch, explained for normal people"
+title: "AutoResearch, explained without the technical details"
 date: "2026-05-31"
 tags: ["ai", "agents", "research", "workflow"]
 excerpt: "AutoResearch is not magic. It is a loop where AI keeps trying, testing, scoring, and improving. The power comes from how much focused trial-and-error it can run without waiting on me."
 draft: false
 ---
 
-I have written about AutoResearch before, but that writeup was more technical. This one is for normal people.
+I have written about AutoResearch before, but that writeup was more technical. This one keeps the idea high level and avoids the implementation details.
 
 The short version: AutoResearch is a system where AI does repeated research work by itself. It tries an idea, tests it, measures the result, learns from that result, and then tries the next idea.
 

@@ -1,7 +1,7 @@
 # Graph Report - C:\Users\rahul\Dev\rahul\rahul1115.github.io  (2026-05-31)
 
 ## Corpus Check
-- 34 files · ~28,048 words
+- 34 files · ~28,055 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
