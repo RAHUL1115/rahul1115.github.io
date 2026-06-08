@@ -314,6 +314,7 @@ export default function TerminalCLI() {
       {/* Tweaks toggle button (fixed bottom-left) */}
       <button
         onClick={() => setTweaksOpen(t => !t)}
+        className="tweaks-toggle"
         style={{
           position: 'fixed',
           bottom: 'calc(env(safe-area-inset-bottom, 0px) + 20px)',
