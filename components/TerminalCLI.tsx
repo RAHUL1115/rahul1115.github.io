@@ -96,6 +96,18 @@ export default function TerminalCLI() {
     if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
   }, [lines]);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, { threshold: 0.05 });
+    document.querySelectorAll('.terminal section').forEach(s => observer.observe(s));
+    return () => observer.disconnect();
+  }, []);
+
   const print = useCallback((html: string, cls = 's') => {
     setLines(prev => [...prev, { html, cls }]);
   }, []);
